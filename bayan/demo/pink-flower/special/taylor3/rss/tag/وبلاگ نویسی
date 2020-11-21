@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" 	xmlns:slash="http://purl.org/rss/1.0/modules/slash/">
+<channel>
+<title>گل صورتی</title>
+<link>http://luffy.blog.ir/</link>
+<description>قالب واکنش‌گرا و زمستانی</description>
+<language>fa</language>
+<generator>http://blog.ir/</generator>
+	<image>
+		<url>//bayanbox.ir/view/4882361575334443719/152055.png</url>
+		<title>گل صورتی</title>
+		<link>http://luffy.blog.ir/</link>
+	</image>
+	<lastBuildDate>Wed, 06 May 2020 12:17:45 +0430</lastBuildDate>
+	
+	<item>
+	<title>عنوان دومین مطلب آزمایشی من</title>
+
+	<link>http://luffy.blog.ir/1398/12/28/my-second-test-post</link>
+	<description>&lt;div style="direction:rtl"&gt;&lt;p&gt;این متن دومین مطلب آزمایشی من است که به زودی آن را حذف خواهم کرد.&lt;/p&gt;
+&lt;p&gt;زکات علم، نشر آن است. هر &lt;a href="http://blog.ir"&gt;وبلاگ&lt;/a&gt; می تواند پایگاهی برای نشر علم و دانش باشد. بهره برداری علمی از وبلاگ ها نقش بسزایی در تولید محتوای مفید فارسی در اینترنت خواهد داشت. انتشار جزوات و متون درسی، یافته های تحقیقی و مقالات علمی از جمله کاربردهای علمی قابل تصور برای ,بلاگ ها است.&lt;/p&gt;
+&lt;p&gt;همچنین &lt;a href="http://blog.ir"&gt;وبلاگ&lt;/a&gt; نویسی یکی از موثرترین شیوه های نوین اطلاع رسانی است و در جهان کم نیستند وبلاگ هایی که با رسانه های رسمی خبری رقابت می کنند. در بعد کسب و کار نیز، روز به روز بر تعداد شرکت هایی که اطلاع رسانی محصولات، خدمات و رویدادهای خود را از طریق &lt;a href="http://blog.ir"&gt;بلاگ&lt;/a&gt; انجام می دهند افزوده می شود.&lt;/p&gt;&lt;/div&gt;</description>
+		<pubDate>Wed, 18 Mar 2020 04:54:19 +0330</pubDate>
+	<comments>http://luffy.blog.ir/1398/12/28/my-second-test-post#comments</comments>
+		<dc:creator>ایزوکو میدوریا</dc:creator>
+	<guid isPermaLink="false">http://blog.ir/blogs/RDXt_YZY-zM/posts/rHdlia-G0S8</guid>
+	<slash:comments>1</slash:comments>
+		<category>موضوع دوم</category>
+		<category>موضوع سوم</category>
+		<category>blog.ir</category>
+		<category>بلاگ</category>
+		<category>بلاگ بیان</category>
+		<category>بیان</category>
+		<category>وبلاگ</category>
+		<category>وبلاگ نویسی</category>
+		<category>وبلاگ نویسی حرفه ای</category>
+	</item>
+</channel>
+</rss>

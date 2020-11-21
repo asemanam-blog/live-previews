@@ -1,0 +1,566 @@
+﻿@font-face {
+	font-family: vazir;
+	src: url('../fonts/Vazir-Medium.ttf') format('truetype'),
+	url('../fonts/Vazir-Medium.woff') format('woff');
+}
+
+@font-face {
+	font-family: lalezar;
+	src: url('../fonts/Lalezar-Regular.ttf') format('truetype'),
+	url('../fonts/Lalezar-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: nazanin;
+  src: url('../fonts/B\ Nazanin.ttf') format('truetype'),
+  url('../fonts/B\ Nazanin\ Bold.TTF') format('truetype');
+}
+
+@font-face {
+  font-family: titr;
+  src: url('../fonts/B\ Titr\ Bold_0.ttf') format('truetype');
+}
+
+.rightb {
+  border-right: 3px solid black !important;
+}
+
+.topb {
+  border-top: 2px solid black !important;
+}
+
+.bottomb {
+  border-bottom: 2px solid black !important;
+}
+
+.leftb {
+  border-left: 3px solid black !important;
+}
+
+#top-first, #top-second {
+  width: 200mm;
+  border-top: 2px solid black;
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+  box-sizing: border-box;
+}
+
+#top-first {
+  height: 16mm;
+}
+
+#top-second {
+  height: 27mm;
+  /*background-color: #D9D9D9;*/
+  line-height: 18pt;
+  font-family: nazanin;
+  font-size: 11pt;
+}
+
+#top-second-first-column {
+  float: right;
+  padding: 1px;
+  margin: 1px 0;
+  margin-right: 10mm;
+}
+
+#top-second-second-column {
+  float: right;
+  padding: 1px;
+  margin: 1px 0;
+  margin-right: 20mm;
+}
+
+#top-second-third-column {
+  float: right;
+  margin-right: 20mm;
+  padding: 1px;
+  margin: 1px 0;
+  margin-right: 20mm;
+}
+
+#top-title {
+  width: 100%;
+  font-family: nazanin, serif;
+  font-size: 11pt;
+  margin: 1px auto;
+  text-align: center;
+  float: left;
+  margin-top: 2mm;
+}
+
+#logo {
+  width: 15mm;
+  height: auto;
+  margin: 5px;
+  position: relative;
+  right: 15mm;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show
+}
+
+body {
+ width: 200mm;
+ margin: 2mm auto;
+ background-color: white;
+}
+
+td,
+th {
+    vertical-align: top;
+    font-size: 10pt;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    clear: both;
+}
+
+p {
+    white-space: nowrap;
+}
+
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* "li span.odfLiEnd" - IE 7 issue*/
+li span. {
+    clear: both;
+    line-height: 0;
+   width: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+}
+
+span.footnodeNumber {
+    padding-right: 1em;
+}
+
+span.annotation_style_by_filter {
+    font-size: 95%;
+    font-family: nazanin;
+    background-color: #fff000;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+span.heading_numbering {
+    margin-right: 0.8rem;
+}
+
+* {
+    margin: 0;
+}
+
+.ta1 {
+    writing-mode: rl-tb;
+}
+
+.ce1 {
+    font-family: nazanin;
+    border-right: 3px solid black !important;
+    /*border-bottom-style: none;*/
+    /*border-left-width: 0.0133cm;*/
+    /*border-left-style: solid;*/
+    /*border-left-color: #000000;*/
+    /*border-right-style: none;*/
+    /*border-top-width: 0.0133cm;*/
+    /*border-top-style: solid;*/
+    /*border-top-color: #000000;*/
+    font-size: 10pt;
+}
+
+.cell {
+    font-family: nazanin;
+    border: 0.0133cm solid black;
+    text-align: right ! important;
+    margin-left: 0mm;
+    writing-mode: rl-tb;
+    font-size: 8pt;
+    padding-right: 1mm;
+    padding-top: 1mm;
+    padding-bottom: 1mm;
+}
+
+.cellc {
+    font-family: nazanin;
+    border: 0.0133cm solid black;
+    text-align: center ! important;
+    margin-left: 0mm;
+    writing-mode: rl-tb;
+    font-size: 8pt;
+    padding-right: 1mm;
+}
+
+.ce10 {
+    font-family: nazanin;
+    border-bottom-style: none;
+    border-left-width: 0.0133cm;
+    border-left-style: solid;
+    border-left-color: #000000;
+    border-right-width: 0.0133cm;
+    border-right-style: solid;
+    border-right-color: #000000;
+    border-top-style: none;
+    text-align: right ! important;
+    margin-left: 0mm;
+    writing-mode: rl-tb;
+    font-size: 8pt;
+    padding-right: 1mm;
+}
+
+.ce11 {
+    font-family: nazanin;
+    border-width: 0.0133cm;
+    border-style: solid;
+    border-color: #000000;
+    vertical-align: middle;
+    text-align: center ! important;
+    font-size: 8pt;
+}
+
+.ce12 {
+    font-family: nazanin;
+    border-bottom-width: 0.0133cm;
+    border-bottom-style: solid;
+    border-bottom-color: #000000;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+    font-size: 10pt;
+}
+
+.ce13 {
+    font-family: nazanin;
+    ---------;
+    border-bottom-style: none;
+    border-left-width: 0.0133cm;
+    border-left-style: solid;
+    border-left-color: #000000;
+    border-right-width: 0.0133cm;
+    border-right-style: solid;
+    border-right-color: #000000;
+    border-top-style: none;
+    text-align: center ! important;
+    margin-left: 0mm;
+    font-size: 10pt;
+}
+
+.ce14 {
+    font-family: nazanin;
+    border-width: 0.0133cm;
+    border-style: solid;
+    border-color: #000000;
+    font-size: 8pt;
+}
+
+.ce15 {
+    font-family: nazanin;
+    border-bottom-width: 0.0133cm;
+    border-bottom-style: solid;
+    border-bottom-color: #000000;
+    border-left-style: none;
+    border-right-width: 0.0133cm;
+    border-right-style: solid;
+    border-right-color: #000000;
+    border-top-width: 0.0133cm;
+    border-top-style: solid;
+    border-top-color: #000000;
+    font-size: 10pt;
+}
+
+.ce16 {
+    font-family: nazanin;
+    ---------;
+    border-width: 0.0133cm;
+    border-style: solid;
+    border-color: #000000;
+    text-align: center ! important;
+    margin-left: 0mm;
+    font-size: 8pt;
+}
+
+.ce17 {
+    font-family: nazanin;
+    border-left: 3px solid black !important;
+    /*border-bottom-style: none;*/
+    /*border-left-style: none;*/
+    /*border-right-width: 0.0133cm;*/
+    /*border-right-style: solid;*/
+    /*border-right-color: #000000;*/
+    /*border-top-width: 0.0133cm;*/
+    /*border-top-style: solid;*/
+    /*border-top-color: #000000;*/
+    font-size: 10pt;
+}
+
+.ce18 {
+    font-family: nazanin;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-right-width: 0.0133cm;
+    border-right-style: solid;
+    border-right-color: #000000;
+    border-top-style: none;
+    font-size: 10pt;
+}
+
+.ce19 {
+    font-family: nazanin;
+    border-bottom-width: 0.0133cm;
+    border-bottom-style: solid;
+    border-bottom-color: #000000;
+    border-left-style: none;
+    border-right-width: 0.0133cm;
+    border-right-style: solid;
+    border-right-color: #000000;
+    border-top-style: none;
+    font-size: 10pt;
+}
+
+.ce2 {
+    font-family: nazanin;
+    border-bottom-style: none;
+    border-left-width: 0.0133cm;
+    border-left-style: solid;
+    border-left-color: #000000;
+    border-right-style: none;
+    border-top-style: none;
+    font-size: 10pt;
+}
+
+.ce3 {
+    font-family: nazanin;
+    border-bottom-width: 0.0133cm;
+    border-bottom-style: solid;
+    border-bottom-color: #000000;
+    border-left-width: 0.0133cm;
+    border-left-style: solid;
+    border-left-color: #000000;
+    border-right-style: none;
+    border-top-width: 0.0133cm;
+    border-top-style: solid;
+    border-top-color: #000000;
+    vertical-align: middle;
+    text-align: center ! important;
+    font-size: 10pt;
+    border-right: 3px solid black;
+    border-left: 3px solid black;
+    border-top: 3px solid black;
+}
+
+.ce4 {
+    font-family: nazanin;
+    border-width: 0.0133cm;
+    border-style: solid;
+    border-color: #000000;
+    text-align: center ! important;
+    margin-left: 0mm;
+    font-size: 8pt;
+}
+
+.ce5 {
+    font-family: nazanin;
+    ---------;
+    border-bottom-style: none;
+    border-left-width: 0.0133cm;
+    border-left-style: solid;
+    border-left-color: #000000;
+    border-right-width: 0.0133cm;
+    border-right-style: solid;
+    border-right-color: #000000;
+    border-top-style: none;
+    text-align: center ! important;
+    margin-left: 0mm;
+    font-size: 10pt;
+    border-right: 3px solid black !important;
+}
+
+.ce6 {
+    font-family: nazanin;
+    border-bottom-width: 0.0133cm;
+    border-bottom-style: solid;
+    border-bottom-color: #000000;
+    border-left-width: 0.0133cm;
+    border-left-style: solid;
+    border-left-color: #000000;
+    border-right-style: none;
+    border-top-style: none;
+    font-size: 10pt;
+}
+
+.ce7 {
+    font-family: nazanin;
+    font-size: 10pt;
+}
+
+.ce8 {
+    font-family: nazanin;
+    /*border-bottom-style: none;*/
+    /*border-left-style: none;*/
+    /*border-right-style: none;*/
+    /*border-top-width: 0.0133cm;*/
+    /*border-top-style: solid;*/
+    /*border-top-color: #000000;*/
+    font-size: 10pt;
+}
+
+.ce9 {
+    font-family: nazanin;
+    border-bottom-width: 0.0133cm;
+    border-bottom-style: solid;
+    border-bottom-color: #000000;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-width: 0.0133cm;
+    border-top-style: solid;
+    border-top-color: #000000;
+    font-size: 10pt;
+}
+
+.co1 {
+   width: 11.17mm;
+}
+
+.co10 {
+   width: 14.98mm;
+}
+
+.co11 {
+   width: 36.21mm;
+}
+
+.co12 {
+   width: 10.62mm;
+}
+
+.co13 {
+   width: 13.34mm;
+}
+
+.co2 {
+   width: 35.4mm;
+}
+
+.co3 {
+   width: 10.34mm;
+}
+
+.co4 {
+   width: 21.24mm;
+}
+
+.co5 {
+   width: 14.43mm;
+}
+
+.co6 {
+   width: 15.24mm;
+}
+
+.co7 {
+   width: 33.5mm;
+}
+
+.co8 {
+   width: 8.17mm;
+}
+
+.co9 {
+   width: 22.58mm;
+}
+
+.ro1 {
+    height: 4.52mm;
+}
+
+.ro2 {
+    height: 5.79mm;
+}
+
+@import url(fontiran.css); 
+body {
+	font-family: nazanin, Roboto, Arial !important;
+	font-weight: 300;
+	direction: rtl;
+	background-color: #E2E2E2;
+}
+h1, h2, h3, h4, h5, h6,input, textarea {
+	font-family: nazanin, Roboto, Arial !important;
+}
+h1 {
+	font-weight: bold;
+}
+.wrapper {
+	max-width: 900px;
+	margin: 0 auto;
+}
+.ltr {
+	direction: ltr;
+}
+.text-right {
+	text-align: right;
+}
+.text-center {
+	text-align: center;
+}
+.text-left {
+	text-align: left;
+}
+.text-small {
+	font-size: 0.8em;
+}
+.text-xsmall {
+	font-size: 0.6em;
+}
+.text-large {
+	font-size: 1.2em;
+}
+.text-xlarge {
+	font-size: 1.4em;
+}
+.text-underline {
+	text-decoration:underline;
+}
+.text-ultralight {
+	font-weight: 200;
+}
+.text-light {
+	font-weight: 300;
+}
+.text-regular {
+	font-weight: normal;
+}
+.text-medium {
+	font-weight: 500;
+}
+.text-bold {
+	font-weight: bold;
+}
+.text-black {
+	font-weight: 900;
+}
+blockquote {
+	font-weight: 500;
+	padding: 10px;
+	border: 1px dashed #666666;
+}
