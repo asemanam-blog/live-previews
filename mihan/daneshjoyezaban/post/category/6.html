@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../xmlrpc%3Frsd" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../xmlrpc%3Frsd.html" />
 <script type="text/javascript" src="http://static.mihanblog.com//public/scripts/run/g.other.v3.js"></script>
 <script>
 
@@ -10,7 +10,7 @@
 			//if (parent.frames.length) top.location.href= document.location;
 		
 	setTodayDate = function(){
-		document.write('پنجشنبه 20 آذر 1399');
+		document.write('جمعه 21 آذر 1399');
 		/*1505484*/	}
 
 </script>
@@ -45,64 +45,6 @@
         <script src="https://plus.sabavision.com/dox/dox.min.js"></script>
         
         <script>
-	linkdailyForm = function(){
-		try{
-			window.open('/linkdaily/new','linkdaily','status=yes,scrollbars=yes,toolbar=no,menubar=no,location=no ,width=500px,height=460px');
-		} catch(e){}
-	}
-</script><script>
-
-	statInfo = new Array();
-	setStatVar = function(index,value){
-		statInfo[index] = value;
-	}
-	getStatVar = function(index){
-		if(statInfo[index]) document.write(statInfo[index]);
-	}
-	
-	setStatVar('total_post','325');
-	setStatVar('total_author','3');
-	setStatVar('modify_date','پنجشنبه 20 آذر 1399');
-	
-	setStatVar('today_view','20');
-	setStatVar('yesterday_view','0');
-	
-	setStatVar('this_month_view','3350');
-	setStatVar('last_month_view','2455');
-
-	setStatVar('total_view','425588');
-	setStatVar('last_view_date','پنجشنبه 20 آذر 1399 (23:16)');
-
-
-
-    
-    function setStatFromClient()
-    {
-        var url = 'http://daneshjoyezaban.mihanblog.com/statupdate/?data[refereruri]=http://daneshjoyezaban.mihanblog.com/&data[postid]=&data[requesturi]=/post/category/6&data[sdate]=1607630971&data[hash]=581842346852fdf0bab0d7e1970ce1e2&data[resolution]='+screen.width+' X '+screen.height;
-
-//        alert(url);
-//        var newjs = document.createElement("SCRIPT");
-//        newjs.type = 'text/javascript';
-//        newjs.src = url;
-//
-//        var newdiv = document.createElement("DIV");
-//        newdiv.setAttribute("style","display:none");
-
-        document.write(unescape('%3Cscript src="'+url+'" type="text/javascript"%3E%3C/script%3E'));
-//        newdiv.appendChild (newjs);
-//        document.write(newjs);
-//        document.write(appendChild (newdiv);
-
-    };
-    setStatFromClient();
-        
-</script><script>
-	messageForm = function(post_id){
-		try{
-			window.open('/message','message','status=yes,scrollbars=yes,toolbar=no,menubar=no,location=no ,width=480px,height=550px');
-		} catch(e){}
-	}
-</script><script>
 	try{
 		var commentCnt = new Array();
 		commentCnt[224]='1';commentCnt[246]='1';commentCnt[321]='1';commentCnt[365]='6';	} catch(e){}
@@ -377,7 +319,132 @@ mihanblogDisLikeArrCnt[365]='2';
         color: #ffffff;
     }
 
-</style>
+</style><script>
+
+	statInfo = new Array();
+	setStatVar = function(index,value){
+		statInfo[index] = value;
+	}
+	getStatVar = function(index){
+		if(statInfo[index]) document.write(statInfo[index]);
+	}
+	
+	setStatVar('total_post','325');
+	setStatVar('total_author','3');
+	setStatVar('modify_date','پنجشنبه 20 آذر 1399');
+	
+	setStatVar('today_view','1086');
+	setStatVar('yesterday_view','2324');
+	
+	setStatVar('this_month_view','6740');
+	setStatVar('last_month_view','2455');
+
+	setStatVar('total_view','428978');
+	setStatVar('last_view_date','جمعه 21 آذر 1399 (20:55)');
+
+
+
+    
+    function setStatFromClient()
+    {
+        var url = 'http://daneshjoyezaban.mihanblog.com/statupdate/?data[refereruri]=http://daneshjoyezaban.mihanblog.com/&data[postid]=&data[requesturi]=/post/category/6&data[sdate]=1607711588&data[hash]=5698016fe30f3cf6663c5066bac9f54c&data[resolution]='+screen.width+' X '+screen.height;
+
+//        alert(url);
+//        var newjs = document.createElement("SCRIPT");
+//        newjs.type = 'text/javascript';
+//        newjs.src = url;
+//
+//        var newdiv = document.createElement("DIV");
+//        newdiv.setAttribute("style","display:none");
+
+        document.write(unescape('%3Cscript src="'+url+'" type="text/javascript"%3E%3C/script%3E'));
+//        newdiv.appendChild (newjs);
+//        document.write(newjs);
+//        document.write(appendChild (newdiv);
+
+    };
+    setStatFromClient();
+        
+</script><script>
+	messageForm = function(post_id){
+		try{
+			window.open('/message','message','status=yes,scrollbars=yes,toolbar=no,menubar=no,location=no ,width=480px,height=550px');
+		} catch(e){}
+	}
+</script><script>
+	linkdailyForm = function(){
+		try{
+			window.open('/linkdaily/new','linkdaily','status=yes,scrollbars=yes,toolbar=no,menubar=no,location=no ,width=500px,height=460px');
+		} catch(e){}
+	}
+</script><script>
+
+var MihanblogShopAdsArray = new Array();
+
+function GetMihanBlogShowAds(){
+	if(MihanblogShopAdsArray.length){
+		var adsTarget = 'MihanblogShopAds';
+		var containerWidth = document.getElementById(adsTarget).offsetWidth;
+		if(containerWidth>=200){
+			var adsCnt = parseInt(containerWidth / 200) ;
+			if(adsCnt>MihanblogShopAdsArray.length){
+				adsCnt = MihanblogShopAdsArray.length ; 
+			}
+//			var OneAdsWidth = parseInt(containerWidth / adsCnt) ;
+			var OneAdsWidth = containerWidth / adsCnt ;
+			if(OneAdsWidth>400){
+				OneAdsWidth = 400 ;
+			}
+			var OutHtml = '';
+			var img = '';
+			var link = '';
+			var title = '';
+			var description = '';
+			var imgWidth = 70;
+			if(OneAdsWidth>230){
+				imgWidth = 80;
+			}
+			if(OneAdsWidth>300){
+				imgWidth = 90;
+			}
+			for(adsOne=0;adsOne<adsCnt;adsOne++){
+				
+				img = MihanblogShopAdsArray[adsOne]['img'];
+				link = MihanblogShopAdsArray[adsOne]['link'];
+				title = MihanblogShopAdsArray[adsOne]['title'];
+				description = MihanblogShopAdsArray[adsOne]['description'];
+				
+				OutHtml += '<td style="background-color:#FFF;width: '+OneAdsWidth+'px;border:1px solid #f00;margin:0px 0px;font-size:11px;font-family:tahoma;padding:2px;margin:0px 0px;font-size:11px;border: 1px solid BurlyWood; padding: 1px; height: '+(imgWidth+25)+'px;">';
+
+				OutHtml += '	<a href="'+link+'.html" target="_blank" style="text-decoration:none">';
+
+				OutHtml += '			<div style="width: '+(OneAdsWidth-16)+'px;cursor:pointer;font-size:12px;padding: 4px 1px 4px 7px; white-space: nowrap; text-align: center; font-weight: bold; color: blue;white-space:nowrap;overflow:hidden">';
+				OutHtml += 					title;
+				OutHtml += '			</div>';
+				OutHtml += '			<div style="cursor:pointer;padding: 1px; display: block; float: right; width: '+imgWidth+'px;">';
+				OutHtml += '				<img src="'+img+'.html" style="border:0px;padding:0px;margin:0px;width:'+imgWidth+'px;height:'+imgWidth+'px;">';
+				OutHtml += '			</div>';
+				OutHtml += '			<div style="padding: 1px; display: block; float: right; width: '+(OneAdsWidth-13-imgWidth)+'px; text-align: right;overflow:hidden">';
+				OutHtml += '				<div style="overflow:hidden;cursor:pointer;padding: 2px 3px; line-height: 17px; height: '+(imgWidth-3)+'px; text-align: justify;color:#000;direction:rtl">';
+				OutHtml += 						description;
+				OutHtml += '				</div>';
+				OutHtml += '			</div>';
+
+				OutHtml += '	</a>';
+
+				OutHtml += '</td>';
+			}
+			
+			var Out = '<table align="center" cellpadding="0" cellspacing="2" style="width:'+(OneAdsWidth*adsCnt)+'px;"><tr>'+OutHtml+'</tr></table>'; 
+			
+			Out = '<div style="text-align:center;padding:0px;margin:3px auto;">'+Out+'</div>'; 
+			
+			document.getElementById(adsTarget).style.height = (imgWidth+35)+'px' ;
+			document.getElementById(adsTarget).innerHTML = Out ;
+		}
+	}
+}
+</script>
     <style>
         @font-face {
             font-family: 'Mihan-Iransans';
@@ -1518,7 +1585,7 @@ daneshjoyezaban@gmail.com </div>
 //        GetMihanBlogShowAds();
 //    }, 1000);
 </script>
-<!--NEW SERVER-->
+<!--NEW SERVER--><!--;)-->
 
 <!--SabaVision Ads Handler--><!--<script type="text/javascript">(function (d) {var url =   location.protocol+'//api.sabavision.com/pox/poxjs.js';d.write('<script type="text/javascript" src="' + url + '" async></scri' + 'pt>');})(document);</script>-->
 
