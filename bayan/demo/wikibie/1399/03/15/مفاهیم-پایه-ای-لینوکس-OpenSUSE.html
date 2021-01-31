@@ -1,0 +1,792 @@
+<!DOCTYPE html><html lang="fa"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	  ga('create', 'UA-82501833-1', 'auto');
+	  ga('send', 'pageview', {'dimension1': 'fS_pE9-c1Ak'});
+	</script>
+	<meta name="keywords" content=",">
+	<meta name="description" content="در این مجموعه از مقالات، برخی از مفاهیم پایه openSUSE  ارائه شده و به بعضی از برنامه‌های پایه‌ای اشاره می‌شود. این مجموعه می‌تواند مورد توجه کاربران تازه‌کار لینوکس که از اپن سوزاه استفاده ...">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="robots" content="index, follow">
+	<title>مفاهیم پایه‌ای لینوکس OpenSUSE :: ویکی‌بی</title>
+	<link rel="alternate" type="application/rss+xml" href="../../../rss/index.html">
+	<meta name="date" content="2020-06-04T01:36:58">
+	<meta name="last-modified" content="2020-06-04T01:36:58">
+	<meta http-equiv="last-modified" content="2020-06-04T01:36:58">
+	<link rel="top" href="../../../index.html">
+	<meta name="generator" content="blog.ir">
+	<link href="http://blog.ir/media/css/sharedrtl.css?uMV-Qp" rel="stylesheet" type="text/css">
+	<link href="../../../static/5tGxg1RVfsU/3108768988/style.css" rel="stylesheet" type="text/css">
+	<script>
+		var constant = {
+			stats: [['VIEW_STAT_POSTS_COUNT', ' مجموع مطالب', '12'], ['VIEW_STAT_COMMENTS_COUNT', ' مجموع نظرات', '5'], ['VIEW_STAT_BLOG_LIFE_TIME', ' عمر سایت', '309 روز'], ['VIEW_STAT_FOLLWER_COUNT', 'تعداد دنبال\u200cکنندگان', '0'], ['VIEW_STAT_FOLLWING_COUNT', 'دنبال\u200cشده توسط نویسنده', '1']],
+			LOGIN_LINK:"https://bayan.ir/service/blog/",
+			REGISTER_LINK: "https://bayan.ir/register/"
+		};
+	</script>
+	<script src="http://blog.ir/media/script/blog.min.js?HNLMGw" charset="utf-8"></script>	<script>(function(){
+    window._rb={id:'bl!fS_pE9-c1Ak', vi:'4684482796eefc72e0929d41cea46af6', dh:'93de394317dd0715fc46d6682b4fc79d', fp: 'repf=2047&reph=ISp3xi2jhEAB7KV-7htMAQ==&repc=display_stat&rept=1612067274'};
+    var s=document.createElement('script'),
+        h=document.getElementsByTagName('script')[0];
+    s.async="async";
+    s.src='//radar.bayan.ir/rb.js?v=e2';
+    h.parentNode.insertBefore(s,h);
+}())</script>
+<noscript><img src="http://radar.bayan.ir/bl!fS_pE9-c1Ak/rb.gif?nos&amp;vi=4684482796eefc72e0929d41cea46af6&amp;dh=93de394317dd0715fc46d6682b4fc79d&amp;refx=aHR0cDovL3NoYW5rcy5ibG9nLmlyLw==" alt="" title="a" border="0"></noscript>
+	<script async src="http://blog.ir/media/script/ckeditor/4.12.1/ckeditor.js?Gx1KP8"></script>
+<link href="http://bayanbox.ir/download/5288479852257857761/favicon.ico" rel="shortcut icon">
+</head>
+<body>
+<div class="container">
+<div class="row">
+<div class="col-lg-2 col-sm-3 col-xs-12 last-mim">
+<div class="wb-sidebar">
+<div class="bAvatar center">
+<a href="../../../index.html">
+<img src="http://bayanbox.ir/view/4882361575334443719/152055.png" alt="ویکی‌بی">
+</a>
+</div>
+<div class="blog-desc wb-sidekick">
+تولید کننده لورم ایپسوم<br>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده
+</div>
+<div class="wb-sidekick">
+<div class="wb-categories">
+<h3>
+موضوعات
+</h3>
+<div>
+<a href="../../../category/نرم-افزار/index.html">
+نرم افزار
+</a>
+<a href="../../../category/عاشقانه/index.html">
+عاشقانه
+</a>
+<a href="../../../category/دلنوشته/index.html">
+دلنوشته
+</a>
+<a href="../../../category/فیلم/index.html">
+فیلم
+</a>
+<a href="../../../category/آموزش/index.html">
+آموزش
+</a>
+</div>
+</div>
+</div>
+<div class="wb-sidekick">
+<div class="wb-tag-cloud">
+<h3>
+برچسب‌ها
+</h3>
+<div class="wb-tag-link">
+<a href="../../../tag/بلاگ.html" style="font-size: 223%;">بلاگ</a>
+</div>
+<div class="wb-tag-link">
+<a href="../../../tag/دایه&#32;دایه.html" style="font-size: 154%;">دایه دایه</a>
+</div>
+<div class="wb-tag-link">
+<a href="../../../tag/یشم.html" style="font-size: 85%;">یشم</a>
+</div>
+<div class="wb-tag-link">
+<a href="../../../tag/سنگر.html" style="font-size: 85%;">سنگر</a>
+</div>
+<div class="wb-tag-link">
+<a href="../../../tag/yashm.html" style="font-size: 85%;">yashm</a>
+</div>
+<div class="wb-tag-link">
+<a href="../../../tag/لورم.html" style="font-size: 85%;">لورم</a>
+</div>
+<div class="wb-tag-link">
+<a href="../../../tag/ایپسوم.html" style="font-size: 85%;">ایپسوم</a>
+</div>
+<div class="wb-tag-link">
+<a href="../../../tag/یواش.html" style="font-size: 85%;">یواش</a>
+</div>
+<div class="wb-tag-link">
+<a href="../../../tag/وبلاگ&#32;نویسی&#32;حرفه&#32;ای.html" style="font-size: 85%;">وبلاگ نویسی حرفه ای</a>
+</div>
+<div class="wb-tag-link">
+<a href="../../../tag/وبلاگ&#32;نویسی.html" style="font-size: 85%;">وبلاگ نویسی</a>
+</div>
+<div class="wb-tag-link">
+<a href="../../../tag/وبلاگ.html" style="font-size: 85%;">وبلاگ</a>
+</div>
+<div class="wb-tag-link">
+<a href="../../../tag/بیان.html" style="font-size: 85%;">بیان</a>
+</div>
+<div class="wb-tag-link">
+<a href="../../../tag/بلاگ&#32;بیان.html" style="font-size: 85%;">بلاگ بیان</a>
+</div>
+<div class="wb-tag-link">
+<a href="../../../tag/blog.ir.html" style="font-size: 85%;">blog.ir</a>
+</div>
+</div>
+</div>
+<div class="wb-sidekick">
+<div class="wb-categories">
+<h3>
+نویسندگان
+</h3>
+<div>
+<a href="../../../by_author/D4CYpG416D0.html">
+نویسنده ...
+</a>
+</div>
+</div>
+</div>
+<div class="wb-sidekick">
+<div class="wb-categories">
+<h3>
+آخرین مطالب
+</h3>
+<div>
+<a href="چگونه-openSUSE-را-تلفظ-کنیم.html" alt="چگونه openSUSE را تلفظ کنیم؟">
+چگونه openSUSE را تلفظ کنیم؟
+</a>
+<a href="مفاهیم-پایه-ای-لینوکس-OpenSUSE.html" alt="مفاهیم پایه‌ای لینوکس OpenSUSE">
+مفاهیم پایه‌ای لینوکس OpenSUSE
+</a>
+<a href="نرم-افزارهای-متن-باز-و-آزاد.html" alt="نرم‌افزارهای متن‌باز و آزاد">
+نرم‌افزارهای متن‌باز و آزاد
+</a>
+<a href="بازی-برای-ساخت-قالب.html" alt="بازی برای ساخت قالب">
+بازی برای ساخت قالب
+</a>
+<a href="معرفی-انیمه-شیطان-کش.html" alt="معرفی انیمه شیطان کش">
+معرفی انیمه شیطان کش
+</a>
+</div>
+</div>
+</div>
+<div class="wb-sidekick">
+<div class="wb-categories">
+<h3>
+محبوب‌ترین مطالب
+</h3>
+<div>
+<a href="مفاهیم-پایه-ای-لینوکس-OpenSUSE.html" alt="مفاهیم پایه‌ای لینوکس OpenSUSE">
+مفاهیم پایه‌ای لینوکس OpenSUSE
+</a>
+<a href="چگونه-openSUSE-را-تلفظ-کنیم.html" alt="چگونه openSUSE را تلفظ کنیم؟">
+چگونه openSUSE را تلفظ کنیم؟
+</a>
+<a href="معرفی-انیمه-آکادمی-قهرمانی-من-تصاویر-gewfew.html" alt="معرفی انیمه آکادمی قهرمانی من + تصاویر gewfew">
+معرفی انیمه آکادمی قهرمانی من + تصاویر gewfew
+</a>
+<a href="../../01/10/my-second-test-post.html" alt="عنوان دومین مطلب آزمایشی من">
+عنوان دومین مطلب آزمایشی من
+</a>
+<a href="معرفی-انیمه-شیطان-کش.html" alt="معرفی انیمه شیطان کش">
+معرفی انیمه شیطان کش
+</a>
+</div>
+</div>
+</div>
+<div class="wb-sidekick">
+<div class="wb-categories">
+<h3>
+مطالب پربازدید
+</h3>
+<div>
+<a href="چگونه-openSUSE-را-تلفظ-کنیم.html" alt="چگونه openSUSE را تلفظ کنیم؟">
+چگونه openSUSE را تلفظ کنیم؟
+</a>
+<a href="مفاهیم-پایه-ای-لینوکس-OpenSUSE.html" alt="مفاهیم پایه‌ای لینوکس OpenSUSE">
+مفاهیم پایه‌ای لینوکس OpenSUSE
+</a>
+<a href="معرفی-انیمه-آکادمی-قهرمانی-من-تصاویر.html" alt="معرفی انیمه آکادمی قهرمانی من + تصاویر">
+معرفی انیمه آکادمی قهرمانی من + تصاویر
+</a>
+<a href="معرفی-انیمه-آکادمی-قهرمانی-من-تصاویر-gewfew.html" alt="معرفی انیمه آکادمی قهرمانی من + تصاویر gewfew">
+معرفی انیمه آکادمی قهرمانی من + تصاویر gewfew
+</a>
+<a href="../../01/10/my-second-test-post.html" alt="عنوان دومین مطلب آزمایشی من">
+عنوان دومین مطلب آزمایشی من
+</a>
+</div>
+</div>
+</div>
+<div class="wb-sidekick">
+<div class="wb-categories">
+<h3>
+آرشیو
+</h3>
+<div>
+<a href="../../../archive/1399/3/index.html">
+خرداد ۱۳۹۹
+</a>
+<a href="../../../archive/1399/1/index.html">
+فروردين ۱۳۹۹
+</a>
+</div>
+</div>
+</div>
+<div class="wb-sidekick">
+<div class="wb-categories">
+<h3>
+پیوندهای روزانه
+</h3>
+<div>
+<a href="http://help.blog.ir" alt="/process/link_clicked/k6cOp2wkpI0/bf4004b2521d0c5ee8fc41648d7909f0">
+پاسخ به سوالات وبلاگ نویسان
+</a>
+<a href="http://blog.ir/changes" alt="/process/link_clicked/Sdp9Lq2EfSg/52020cc49af688c907650913b4a27ed9">
+آخرین وبلاگ های به روز شده
+</a>
+<a href="http://bayan.blog.ir/1392/04/01" alt="/process/link_clicked/C4mq_ddsLmQ/397fc436e0a3fbc4e1d1efdcda333f72">
+زندگی به سبک بیان!
+</a>
+</div>
+</div>
+</div>
+<div class="wb-sidekick">
+<div class="wb-categories">
+<h3>
+پیوندها
+</h3>
+<div>
+<a href="http://blog.ir/create-blog" alt="/process/link_clicked/gp68IlG-V4Y/c66dd800a99f75a3755f692c94bab1b2">
+ساخت وبلاگ جدید در blog.ir
+</a>
+<a href="http://mohajer.blog.ir" alt="/process/link_clicked/1TlP6Q0sMzQ/d198d10b21f55aca9b6daa2f8399e44a">
+نرم افزار مهاجرت به blog.ir
+</a>
+<a href="http://bayan.blog.ir" alt="/process/link_clicked/ihRJLlpY8ys/dbad931a7bf15ff93adfeddc1a971f17">
+وبلاگ رسمی شرکت بیان
+</a>
+<a href="http://bayanbox.ir" alt="/process/link_clicked/sT0Febfn07k/5c37a086f68dbf5250f5e83971fbbd64">
+صندوق بیان
+</a>
+</div>
+</div>
+</div>
+	<div id="stat_summary_div" style="display:none;">
+<div class="wb-sidekick">
+<div class="wb-stats">
+<h3>
+آمار
+</h3>
+<div class="wb-stats-each">
+<div class="wb-stat-name">
+<span id="lang_VIEW_STAT_TOTAL"></span>
+</div>
+<div class="wb-stat-value">
+<span id="value_VIEW_STAT_TOTAL"></span>
+</div>
+<div class="wb-clear"></div>
+</div>
+<div class="wb-stats-each">
+<div class="wb-stat-name">
+<span id="lang_HIT_STAT_TOTAL"></span>
+</div>
+<div class="wb-stat-value">
+<span id="value_HIT_STAT_TOTAL"></span>
+</div>
+<div class="wb-clear"></div>
+</div>
+<div class="wb-stats-each">
+<div class="wb-stat-name">
+<span id="lang_HIT_STAT_TODAY"></span>
+</div>
+<div class="wb-stat-value">
+<span id="value_HIT_STAT_TODAY"></span>
+</div>
+<div class="wb-clear"></div>
+</div>
+<div class="wb-stats-each">
+<div class="wb-stat-name">
+<span id="lang_VIEW_STAT_TODAY"></span>
+</div>
+<div class="wb-stat-value">
+<span id="value_VIEW_STAT_TODAY"></span>
+</div>
+<div class="wb-clear"></div>
+</div>
+<div class="wb-stats-each">
+<div class="wb-stat-name">
+<span id="lang_HIT_STAT_YESTERDAY"></span>
+</div>
+<div class="wb-stat-value">
+<span id="value_HIT_STAT_YESTERDAY"></span>
+</div>
+<div class="wb-clear"></div>
+</div>
+<div class="wb-stats-each">
+<div class="wb-stat-name">
+<span id="lang_VIEW_STAT_YESTERDAY"></span>
+</div>
+<div class="wb-stat-value">
+<span id="value_VIEW_STAT_YESTERDAY"></span>
+</div>
+<div class="wb-clear"></div>
+</div>
+<div class="wb-stats-each">
+<div class="wb-stat-name">
+<span id="lang_HIT_STAT_DAY_AVERAGE"></span>
+</div>
+<div class="wb-stat-value">
+<span id="value_HIT_STAT_DAY_AVERAGE"></span>
+</div>
+<div class="wb-clear"></div>
+</div>
+<div class="wb-stats-each">
+<div class="wb-stat-name">
+<span id="lang_VIEW_STAT_DAY_AVERAGE"></span>
+</div>
+<div class="wb-stat-value">
+<span id="value_VIEW_STAT_DAY_AVERAGE"></span>
+</div>
+<div class="wb-clear"></div>
+</div>
+<div class="wb-stats-each">
+<div class="wb-stat-name">
+<span id="lang_HIT_STAT_PREVISION"></span>
+</div>
+<div class="wb-stat-value">
+<span id="value_HIT_STAT_PREVISION"></span>
+</div>
+<div class="wb-clear"></div>
+</div>
+<div class="wb-stats-each">
+<div class="wb-stat-name">
+<span id="lang_VIEW_STAT_PREVISION"></span>
+</div>
+<div class="wb-stat-value">
+<span id="value_VIEW_STAT_PREVISION"></span>
+</div>
+<div class="wb-clear"></div>
+</div>
+<div class="wb-stats-each">
+<div class="wb-stat-name">
+<span id="lang_VIEW_STAT_POSTS_COUNT"></span>
+</div>
+<div class="wb-stat-value">
+<span id="value_VIEW_STAT_POSTS_COUNT"></span>
+</div>
+<div class="wb-clear"></div>
+</div>
+<div class="wb-stats-each">
+<div class="wb-stat-name">
+<span id="lang_VIEW_STAT_COMMENTS_COUNT"></span>
+</div>
+<div class="wb-stat-value">
+<span id="value_VIEW_STAT_COMMENTS_COUNT"></span>
+</div>
+<div class="wb-clear"></div>
+</div>
+<div class="wb-stats-each">
+<div class="wb-stat-name">
+<span id="lang_VIEW_STAT_FOLLWER_COUNT"></span>
+</div>
+<div class="wb-stat-value">
+<span id="value_VIEW_STAT_FOLLWER_COUNT"></span>
+</div>
+<div class="wb-clear"></div>
+</div>
+<div class="wb-stats-each">
+<div class="wb-stat-name">
+<span id="lang_VIEW_STAT_FOLLWING_COUNT"></span>
+</div>
+<div class="wb-stat-value">
+<span id="value_VIEW_STAT_FOLLWING_COUNT"></span>
+</div>
+<div class="wb-clear"></div>
+</div>
+<div class="wb-stats-each">
+<div class="wb-stat-name">
+<span id="lang_VIEW_STAT_BLOG_LIFE_TIME"></span>
+</div>
+<div class="wb-stat-value">
+<span id="value_VIEW_STAT_BLOG_LIFE_TIME"></span>
+</div>
+<div class="wb-clear"></div>
+</div>
+<div class="wb-stats-each">
+<div class="wb-stat-name">
+<span id="lang_VIEW_STAT_ONLINE_USER"></span>
+</div>
+<div class="wb-stat-value">
+<span id="value_VIEW_STAT_ONLINE_USER"></span>
+</div>
+<div class="wb-clear"></div>
+</div>
+</div>
+</div></div>
+<div class="wb-sidekick">
+<div class="wb-ads">
+<h3>
+تبلیغات
+</h3>
+<div class="wb-ad-item">
+<a href="https://blog.ir/" title="Blog.ir بلاگ، رسانه متخصصین و اهل قلم، استفاده آسان از امکانات وبلاگ نویسی حرفه‌ای، در محیطی نوین، امن و پایدار"><img src="http://blog.ir/media/images/sample_ad/blog.png" alt="Blog.ir بلاگ، رسانه متخصصین و اهل قلم، استفاده آسان از امکانات وبلاگ نویسی حرفه‌ای، در محیطی نوین، امن و پایدار"></a>
+</div>
+<div class="wb-ad-item">
+<a href="http://bayanbox.ir" title="bayanbox.ir صندوق بیان - تجربه‌ای متفاوت در نشر و نگهداری فایل‌ها، ۳ گیگا بایت فضای پیشرفته رایگان"><img src="http://blog.ir/media/images/sample_ad/bbox.png" alt="bayanbox.ir صندوق بیان - تجربه‌ای متفاوت در نشر و نگهداری فایل‌ها، ۳ گیگا بایت فضای پیشرفته رایگان"></a>
+</div>
+<div class="wb-ad-item">
+<a href="http://bayan.ir" title="Bayan.ir - بیان، پیشرو در فناوری‌های فضای مجازی ایران"><img src="http://blog.ir/media/images/sample_ad/bayan.png" alt="Bayan.ir - بیان، پیشرو در فناوری‌های فضای مجازی ایران"></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-10 col-sm-9 col-xs-12">
+<div class="wb-main">
+<div class="wb-head">
+<a href="../../../index.html">
+<div class="bTitle center">
+ویکی‌بی
+</div>
+</a>
+<span class="wb-slogan center d-block">
+قالبی برای علاقمندان به تولید محتوا
+</span>
+<div class="wb-top-menu-wrap row">
+<ul class="wb-top-menu col-lg-9 col-xs-12 last-mim last-mimm">
+<li class="">
+<a href="../../../index.html">خانه</a>
+</li>
+<li class="">
+<a href="../../../page/about-me.html">درباره من</a>
+</li>
+<li class="">
+<a href="../../../post/1.html">سرآغاز</a>
+</li>
+<li class="">
+<a href="../../../page/تماس-با-من.html">تماس با من</a>
+</li>
+</ul>
+<div style="clear: both;"></div>
+<div class="wb-search-form col-lg-3 col-xs-12">
+<div id="srchBx" class="search-box">
+    <form action="https://www.google.com/search" method="GET" target="_blank">
+        <div class="search-wrapper">
+            <input class="text" name="q" placeholder="جستجو ..." type="text">
+        </div>
+        <input type="hidden" name="q" value="site:shanks.blog.ir">
+        <input class="submit" type="submit" value="">
+    </form></div><script>updateSearchBoxTheme('srchBx')</script>
+</div>
+</div>
+</div>
+<div class="wb-content">
+<div class="wb-post-detail">
+<h1>
+مفاهیم پایه‌ای لینوکس OpenSUSE
+</h1>
+<div class="wb-post-list-detail">
+<div class="wb-post-list-author">
+<img src="https://bayanbox.ir/download/2089400947142887402/user.svg" alt="author">
+<span>
+نویسنده ...
+</span>
+</div>
+<div class="wb-post-list-date">
+<img src="https://bayanbox.ir/download/1249587433114230328/date.svg" alt="date">
+<span>
+۱۵ خرداد ۹۹
+</span>
+</div>
+<div class="wb-post-list-date">
+<img src="https://bayanbox.ir/download/360656855307319660/commentory.svg" alt="date">
+<span>
+<a href="مفاهیم-پایه-ای-لینوکس-OpenSUSE.html#comments">
+۴ نظر
+</a>
+</span>
+</div>
+</div>
+<div class="wb-full-post">
+<p>در این مجموعه از مقالات، برخی از مفاهیم پایه openSUSE  ارائه شده و به بعضی از برنامه‌های پایه‌ای اشاره می‌شود. این مجموعه می‌تواند مورد توجه کاربران تازه‌کار لینوکس که از اپن سوزاه استفاده می کنند، قرار گیرد. در این مجموعه، فرض بر این است که کاربران، تجربه کار با کامپیوتر را داشته‌اند . </p>
+<blockquote><p class="headersuse">اولین چیزهایی که یک کاربر تازه‌کار openSUSE انجام می‌دهد</p></blockquote>
+<p>به عنوان نمونه، اولین چیزی که یک کاربر تازه‌وارد اپن‌سوزاه می‌خواهد انجام دهد این است که به محض این که سیستم عامل کار نصبش تمام شد، برود و بر روی پروژه‌ی خودش کار کند. اما باید بداند که بهتر است قبل از این کار برود و یک سری از چیزهای بنیادی لینوکس را یاد بگیرد، در این باره که لینوکس چطور کار می کند، تا از هدر رفت زمان در آینده جلوگیری کند. لینوکس به روشی متفاوت از سیستم‌عامل‌هایی چون <span style="font-size:12.8px"><span style='font-family:"Lucida Grande", Arial, "DejaVu Sans", Verdana, sans-serif'>MacOS یا مایکروسافت ویندوز، کار می‌کند و برای ذخیره زمان این تفاوت بایستی درک شود.</span></span></p>
+<div class="warning"><p><span style="font-size:12.8px"><span style='font-family:"Lucida Grande", Arial, "DejaVu Sans", Verdana, sans-serif'><u><font color="#ff0000">هشدار</font></u>  همچون دیگر سیستم‌عامل‌ها، راه‌اندازی یک جلسه دسکتاپ (‌ </span></span><span style="font-size:12.8px"><span style='font-family:"Lucida Grande", Arial, "DejaVu Sans", Verdana, sans-serif'>desktop session ) به عنوان مدیر (</span></span><span style="font-size:12.8px"><span style='font-family:"Lucida Grande", Arial, "DejaVu Sans", Verdana, sans-serif'>administrator) - </span></span><span style="font-size:12.8px"><span style='font-family:"Lucida Grande", Arial, "DejaVu Sans", Verdana, sans-serif'>( که در گذشته root گفته می‌شد ) کار عاقلانه‌ای نیست و بسیار خطرناک است.</span></span></p></div>
+<h3>دو تفاوت عمده وجود دارد</h3>
+<h4>مشهودترین تفاوت،‌ رابط کاربری است</h4>
+<div>رابط کاربری گرافیکی ( <a target="_blank" href="https://en.opensuse.org/GUI">GUI</a> ) در اپن‌سوزاه کمی با ویندوز و  <span style="font-size:12.8px"><span style='font-family:"Lucida Grande", Arial, "DejaVu Sans", Verdana, sans-serif'>MacOS متفاوت است اما این تفاوت‌‌ها بیشتر در آرایش و چینش‌ها می‌باشد. میزکار </span></span><span style="font-size:12.8px"><span style='font-family:"Lucida Grande", Arial, "DejaVu Sans", Verdana, sans-serif'><a target="_blank" href="https://en.opensuse.org/KDE">KDE</a> Plasma ( که در مقابلش <a target="_blank" href="https://en.opensuse.org/GNOME">GNOME</a>، یک میزکار دیگر ) به صورت خاصی شبیه رابط‌های کاربری دیگر است: بیشتر چیزهای پایه‌ای یکسانند، ویندوز، دارای پنجره‌هایی است که از یک قاب، نوار عنوان، یک دکمه تنظیمات پنجره در بخش سمت چپ نوار عنوان، و دکمه‌های کوچک‌کننده و بزرگ‌کننده و بستن پنجره در بخش سمت راست نوار عنوان تشکیل می‌شوند. </span></span><span style="font-size:12.8px"><span style='font-family:"Lucida Grande", Arial, "DejaVu Sans", Verdana, sans-serif'>اگر کاربر تصمیم دارد از theme متفاوتی استفاده کند </span></span><span style="font-size:12.8px"><span style='font-family:"Lucida Grande", Arial, "DejaVu Sans", Verdana, sans-serif'>این تنظیمات پیش‌فرض به راحتی قابل تغییرند، اما این پیش‌فرض‌ها طراحی شدند تا به کاربر احساس همیشگی، بودن در خانه را هنگام استفاده از لینوکس دهند. </span></span>
+</div>
+<h3>دومین تفاوت زیاد مشهود نیست ( در نگاه اولیه )</h3>
+<div>این نوع از تفاوت‌ها شامل موارد بسیار زیادی می‌شود. یکی از تفاوت‌‌هایی که هر کاربر تازه‌کاری به سرعت پیدایش می‌کند این است: برنامه‌هایی که برای ویندوز طراحی شده‌اند نیاز به یک لایه سازگاری خاصی دارند که به وسیله <a target="_blank" href="https://en.opensuse.org/Wine">WINE</a> یا ( <b style='padding:0px; border:0px; outline:0px; font-size:12.8px; background:#fefefe; font-family:"Lucida Grande", Arial, "DejaVu Sans", Verdana, sans-serif'>W</b> <b style='padding:0px; border:0px; outline:0px; font-size:12.8px; background:#fefefe; font-family:"Lucida Grande", Arial, "DejaVu Sans", Verdana, sans-serif'>I</b><span style="font-size:12.8px"><span style='font-family:"Lucida Grande", Arial, "DejaVu Sans", Verdana, sans-serif'>s </span></span><b style='padding:0px; border:0px; outline:0px; font-size:12.8px; background:#fefefe; font-family:"Lucida Grande", Arial, "DejaVu Sans", Verdana, sans-serif'>N</b><span style="font-size:12.8px"><span style='font-family:"Lucida Grande", Arial, "DejaVu Sans", Verdana, sans-serif'>ot an </span></span><b style='padding:0px; border:0px; outline:0px; font-size:12.8px; background:#fefefe; font-family:"Lucida Grande", Arial, "DejaVu Sans", Verdana, sans-serif'>E</b><span style="font-size:12.8px"><span style='font-family:"Lucida Grande", Arial, "DejaVu Sans", Verdana, sans-serif'>mulator ) تامین می‌شود که برای بسیار از برنامه‌ها کار می‌کند،‌ دارند. معماری فایل سیستم لینوکس به طور قابل توجهی با ویندوز و </span></span><span style="font-size:12.8px"><span style='font-family:"Lucida Grande", Arial, "DejaVu Sans", Verdana, sans-serif'>MacOS متفاوت است. مدیریت لینوکس بدون اجرای میزکار به عنوان کاربر root کار بسیار آسان‌تری است. یکی از تفاوت‌‌های مهم دیگر، روش نصب و تغییر برنامه‌ها است که با ویندوز و </span></span><span style="font-size:12.8px"><span style='font-family:"Lucida Grande", Arial, "DejaVu Sans", Verdana, sans-serif'>MacOS بسیار متفاوت است. این لیست طولانی‌تر است و در آینده به جزئیات توضیح داده خواهد شد اما این ۴ مثال بیشتر برای کاربران پیشترفته بود ( که تا به حال لینوکس را امتحان نکردند ) که باید عادات کامپیوتری خود برای لینوکس تغییر دهند. چرا فقط کاربران پیشرفته؟ خیلی ساده،‌ این افراد به دنبال تنظیمات و امکانات برابر ویندوز در عمق سیستم‌عامل می‌گردند و تفاوت‌های مابین ویندوز و لینوکس را برخواهند شمرد. کاربران پیشرفته معمولا نیاز دارند که به اعماق فرو روند تا جزئیات پیشرفته را بفهمند و تغییر دهند چرا که وقتی از یک کامپیوتر استفاده می‌کنند، لینوکس تفاوتی در اصل موضوع کارکرد و فهم و شکل دادن به آن ندارد.</span></span>
+</div>
+<div> </div>
+<div><h2 class="headersuse">لینک‌های خارجی</h2></div>
+<div>
+<ul>
+<li><a target="_blank" href="http://en.wikibooks.org/wiki/Linux_For_Newbies">Wikibook Linux For Newbies Guide</a></li>
+<li><a target="_blank" href="http://en.wikipedia.org/wiki/Linux">Linux article on Wikipedia</a></li>
+</ul>
+<div>منبع: <a target="_blank" href="https://en.opensuse.org/Concepts">Wiki openSUSE</a> </div>
+</div>
+</div>
+<div class="wb-full-post-sep">
+<div class="wb-continue-sectioner">
+<div class="wb-continue" style="margin-top: .5em;margin-bottom: .3em;">
+<a target="_blank" href="https://twitter.com/intent/tweet?url=http://asemanam.blog.ir/1399/03/15/%D9%85%D9%81%D8%A7%D9%87%DB%8C%D9%85-%D9%BE%D8%A7%DB%8C%D9%87-%D8%A7%DB%8C-%D9%84%DB%8C%D9%86%D9%88%DA%A9%D8%B3-OpenSUSE&amp;status=مفاهیم پایه‌ای لینوکس OpenSUSE+http://asemanam.blog.ir/1399/03/15/%D9%85%D9%81%D8%A7%D9%87%DB%8C%D9%85-%D9%BE%D8%A7%DB%8C%D9%87-%D8%A7%DB%8C-%D9%84%DB%8C%D9%86%D9%88%DA%A9%D8%B3-OpenSUSE">
+<div class="label mx-1" style="width: 30px; background: none;">
+<svg role="img" viewBox="0 0 24 24"><title>Twitter</title><path style="fill: rgba(153, 156, 162, 1)" d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124C7.691 8.094 4.066 6.13 1.64 3.161c-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z"></path></svg>
+</div>
+</a>
+<a target="_blank" href="https://www.addtoany.com/add_to/whatsapp?linkurl=http://asemanam.blog.ir/1399/03/15/%D9%85%D9%81%D8%A7%D9%87%DB%8C%D9%85-%D9%BE%D8%A7%DB%8C%D9%87-%D8%A7%DB%8C-%D9%84%DB%8C%D9%86%D9%88%DA%A9%D8%B3-OpenSUSE&amp;linkname=مفاهیم پایه‌ای لینوکس OpenSUSE">
+<div class="label mx-1" style="width: 30px; background: none;">
+<svg role="img" viewBox="0 0 24 24"><title>WhatsApp</title><path style="fill: rgba(153, 156, 162, 1)" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"></path></svg>
+</div>
+</a>
+<a target="_blank" href="https://www.addtoany.com/add_to/telegram?linkurl=http://asemanam.blog.ir/1399/03/15/%D9%85%D9%81%D8%A7%D9%87%DB%8C%D9%85-%D9%BE%D8%A7%DB%8C%D9%87-%D8%A7%DB%8C-%D9%84%DB%8C%D9%86%D9%88%DA%A9%D8%B3-OpenSUSE&amp;linkname=مفاهیم پایه‌ای لینوکس OpenSUSE">
+<div class="label mx-1" style="width: 30px; background: none;">
+<svg role="img" viewBox="0 0 24 24"><title>Telegram</title><path style="fill: rgba(153, 156, 162, 1)" d="M23.91 3.79L20.3 20.84c-.25 1.21-.98 1.5-2 .94l-5.5-4.07-2.66 2.57c-.3.3-.55.56-1.1.56-.72 0-.6-.27-.84-.95L6.3 13.7l-5.45-1.7c-1.18-.35-1.19-1.16.26-1.75l21.26-8.2c.97-.43 1.9.24 1.53 1.73z"></path></svg>
+</div>
+</a>
+<a target="_blank" href="mailto:?subject=مفاهیم پایه‌ای لینوکس OpenSUSE&amp;body=سلام یه نگاهی به این بنداز<br>http://asemanam.blog.ir/1399/03/15/%D9%85%D9%81%D8%A7%D9%87%DB%8C%D9%85-%D9%BE%D8%A7%DB%8C%D9%87-%D8%A7%DB%8C-%D9%84%DB%8C%D9%86%D9%88%DA%A9%D8%B3-OpenSUSE">
+<div class="label mx-1" style="width: 30px; background: none;">
+<svg role="img" viewBox="0 0 24 24"><title>Gmail</title><path style="fill: rgba(153, 156, 162, 1)" d="M24 4.5v15c0 .85-.65 1.5-1.5 1.5H21V7.387l-9 6.463-9-6.463V21H1.5C.649 21 0 20.35 0 19.5v-15c0-.425.162-.8.431-1.068C.7 3.16 1.076 3 1.5 3H2l10 7.25L22 3h.5c.425 0 .8.162 1.069.432.27.268.431.643.431 1.068z"></path></svg>
+</div>
+</a>
+</div>
+<div class="wb-rating" style="padding-top: 10px;">
+<span class="rate-box ">
+<span class="rate-button-box rate-up ">
+<a class="rate-button" href="http://shanks.blog.ir/process/rate_post/8ndSD78VJIs/2" rel="nofollow" title="like">
+<span class="rate-counter">۱</span>
+<img src="https://bayanbox.ir/download/641735932238592043/upvotey.svg" alt="upvote">
+</a>
+</span>
+<span class="rate-button-box mx-2 rate-down ">
+<a class="rate-button" href="http://shanks.blog.ir/process/rate_post/8ndSD78VJIs/1" rel="nofollow" title="dislike">
+<span class="rate-counter">۰</span>
+<img src="https://bayanbox.ir/download/8236847101465908407/downvotey.svg" alt="downvote">
+</a>
+</span>
+</span>
+</div>
+<div class="wb-clear"></div>
+</div>
+</div>
+<a name="comments"></a>
+<div class="wb-comment-section-all">
+<a name="comment-WKMCnnuEuMg"></a>
+<div class="wb-comment-section">
+<div class="wb-comm-first-col">
+<img src="http://blog.ir/media/images/guest.png?1" alt="دوست بلاگی">
+<span>
+دوست بلاگی
+</span>
+</div>
+<div class="wb-comm-second-col">
+<p>طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آیندهطراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده</p>
+</div>
+<div class="wb-comm-third-col">
+<img src="https://bayanbox.ir/download/1249587433114230328/date.svg" alt="date">
+<span>
+۲۶ خرداد ۹۹
+</span>
+</div>
+<div class="wb-fourth-col">
+<div class="wb-comm-reply-sep"></div>
+<div class="wb-comm-reply-name">
+پاسخ نویسنده ...
+</div>
+<div class="wb-comm-reply-text">
+اوکی 😁طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و 
+سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای
+ متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه 
+درصد گذشته حال و آیندهطراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و 
+سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای
+ متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه 
+درصد گذشته حال و آینده
+</div>
+</div>
+</div>
+<a name="comment-XczuP8jtw_g"></a>
+<div class="wb-comment-section">
+<div class="wb-comm-first-col">
+<img src="http://blog.ir/media/images/guest.png?1" alt="درس‌های وبلاگی">
+<span>
+درس‌های وبلاگی
+</span>
+</div>
+<div class="wb-comm-second-col">
+<p>شوخی جزوی از کارماست ... طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده</p>
+</div>
+<div class="wb-comm-third-col">
+<img src="https://bayanbox.ir/download/1249587433114230328/date.svg" alt="date">
+<span>
+۲۶ خرداد ۹۹
+</span>
+</div>
+<div class="wb-fourth-col">
+<div class="wb-comm-reply-sep"></div>
+<div class="wb-comm-reply-name">
+پاسخ نویسنده ...
+</div>
+<div class="wb-comm-reply-text">
+بله ... درسته درس‌دهنده‌ی بلاگی 😁
+</div>
+</div>
+</div>
+<a name="comment-rcHrbpz-7P4"></a>
+<div class="wb-comment-section">
+<div class="wb-comm-first-col">
+<img src="http://id.bayan.ir/bayan/profile/avatar/UvPXT0i6ZkwOC5y4rKYgEHIycfU%3D/" alt="نویسنده ...">
+<span>
+نویسنده ...
+</span>
+</div>
+<div class="wb-comm-second-col">
+<p>این یک متن آزمایشی است ... فقط همین ... :)) ... این یک متن آزمایشی است ... فقط همین ... :)) ...این یک متن آزمایشی است ... فقط همین ... :)) ...این یک متن آزمایشی است ... فقط همین ... :)) ...این یک متن آزمایشی است ... فقط همین ... :)) ...این یک متن آزمایشی است ... فقط همین ... :)) ...این یک متن آزمایشی است ... فقط همین ... :)) ...این یک متن آزمایشی است ... فقط همین ... :)) ...</p>
+</div>
+<div class="wb-comm-third-col">
+<img src="https://bayanbox.ir/download/1249587433114230328/date.svg" alt="date">
+<span>
+۱۰ آبان ۹۹
+</span>
+</div>
+</div>
+<a name="comment-MyTh0kMnYA8"></a>
+<div class="wb-comment-section">
+<div class="wb-comm-first-col">
+<img src="http://id.bayan.ir/bayan/profile/avatar/UvPXT0i6ZkwOC5y4rKYgEHIycfU%3D/" alt="نویسنده ...">
+<span>
+نویسنده ...
+</span>
+</div>
+<div class="wb-comm-second-col">
+<p>ت ... فقط همین ... :)) ...این یک متن آزمایشی است ... فقط همین ... :)) ...این یک متن آزمایشی است ... فقط همین ... :)) ...این یک متن</p>
+</div>
+<div class="wb-comm-third-col">
+<img src="https://bayanbox.ir/download/1249587433114230328/date.svg" alt="date">
+<span>
+۱۰ آبان ۹۹
+</span>
+</div>
+</div>
+<a name="send_comment"></a>
+<div class="wb-comment-add">
+
+
+
+
+	<div class="item_success"><div class="icon"></div>ارسال نظر آزاد است، اما اگر قبلا در <a href="http://id.bayan.ir/">بیان</a> <a href="https://bayan.ir/register/?service=blog&next=http%3A%2F%2Fshanks.blog.ir%2F1399%2F03%2F15%2F%25D9%2585%25D9%2581%25D8%25A7%25D9%2587%25DB%258C%25D9%2585-%25D9%25BE%25D8%25A7%25DB%258C%25D9%2587-%25D8%25A7%25DB%258C-%25D9%2584%25DB%258C%25D9%2586%25D9%2588%25DA%25A9%25D8%25B3-OpenSUSE" target="_blank" rel="nofollow">ثبت نام</a> کرده اید می توانید ابتدا <a href="https://bayan.ir/service/blog/?service=blog&next=http%3A%2F%2Fshanks.blog.ir%2F1399%2F03%2F15%2F%25D9%2585%25D9%2581%25D8%25A7%25D9%2587%25DB%258C%25D9%2585-%25D9%25BE%25D8%25A7%25DB%258C%25D9%2587-%25D8%25A7%25DB%258C-%25D9%2584%25DB%258C%25D9%2586%25D9%2588%25DA%25A9%25D8%25B3-OpenSUSE" rel="nofollow">وارد شوید</a>.</div>
+	
+	<form class="bComForm" id="bComFormElem" action="http://shanks.blog.ir/process/comment_add/8ndSD78VJIs" method="post">
+	<div class="anon-hide "><div class="in">
+		<div class="formField2">
+			<label>نام *</label>
+			<div class="fldcontent">
+			
+				<div class="inputFix">
+					<input type="text" class="text" name="fullname" 
+						value="">
+				</div>
+			
+
+			</div>
+		</div>
+		<div class="formField2">
+			<label>پست الکترونيک</label>
+			<div class="fldcontent">
+				<div class="inputFix">
+					<input type="text" class="text ltr" name="email" value="">
+				</div>
+			
+
+			</div>
+		</div>
+		<div class="formField2">
+			<label>سایت یا وبلاگ</label>
+			<div class="fldcontent">
+				
+					<div class="inputFix">
+					<input type="text" class="text ltr" name="website" value="">
+					</div>
+				
+
+			</div>
+		</div>
+	</div></div>
+	<div class="formField2">
+		<label>پیام *</label>
+		<div class="fldcontent">
+				<textarea name="comment" id="commenthtmlbox" cols="60" rows="8"></textarea>
+				<input type="hidden" id="commentWithEditor" name="settings_WITH_EDITOR" value="">
+				<div class="smalltip" id="commentEditTagsDesc">شما میتوانید از این تگهای html استفاده کنید:   <div class="ltr">&lt;b&gt; یا &lt;strong&gt;، &lt;em&gt; یا &lt;i&gt;، &lt;u&gt;، &lt;strike&gt; یا &lt;s&gt;، &lt;sup&gt;، &lt;sub&gt;،  &lt;blockquote&gt;، &lt;code&gt;، &lt;pre&gt;، &lt;hr&gt;، &lt;br&gt;، &lt;p&gt;، &lt;a href="" title=""&gt;، &lt;span style=""&gt;، &lt;div align=""&gt;</div></div>
+			<input type="hidden" id="commentJsEnabled" name="settings_WITH_JS" value="">
+			<input type="hidden" id="commentJsError" name="commentJsError" value="">
+			
+
+		</div>
+	</div>
+		
+	
+	<div class="formField2">
+		<label>کد امنیتی *</label>
+		<input type="hidden" id="cap_code_10479888" name="captcha_code" value="1612067274-f760b330dfc151ca3e7e62032af6e261">
+		<div class="fldcontent">
+			<input type="text" class="text ltr" name="captcha_key" id="captchaInput" style="width:60px;">
+			<a href="مفاهیم-پایه-ای-لینوکس-OpenSUSE.html#" onclick="renew_captcha(10479888);event.preventDefault()">
+				<img class="renew" src="http://blog.ir/media/images/cleardot.gif" alt="تجدید" title="تجدید"></a>
+			<img id="cap_img_10479888" src="http://shanks.blog.ir/process/captcha/1612067274-f760b330dfc151ca3e7e62032af6e261" alt="کد امنیتی" title="کد امنیتی">
+			<span id="captchaDesc" class="smalltip" style="visibility:hidden">ارقام فارسی و انگلیسی پذیرفته می‌شوند</span>
+			
+
+		</div>
+	</div>
+
+			<div class="formField2">
+				<div class="fldcontent">
+					<input id="frm_isprivate" type="checkbox" name="status" value="private" >
+					<label for="frm_isprivate">نظر بصورت خصوصی ارسال شود</label>
+					<div class="smalltip" style="display:none" id="frmPrivateNotice">نظر شما به هیچ وجه امکان عمومی شدن در قسمت نظرات را ندارد، و تنها راه پاسخگویی به آن نیز از طریق پست الکترونیک می‌باشد. بنابراین در صورتیکه مایل به دریافت پاسخ هستید، پست الکترونیک خود را وارد کنید.</div>
+					
+
+				</div>
+			</div>
+		<div class="formField2 anon-hide">
+			<div class="fldcontent">
+				<input id="frm_hide_mail" type="checkbox" name="hide_mail" value="0" >
+				<input type="hidden" name="hide_mail" value="1">
+				<label for="frm_hide_mail">پست الکترونیک برای عموم قابل مشاهده باشد</label>
+				<a href="مفاهیم-پایه-ای-لینوکس-OpenSUSE.html#" class="smalltip" id="frmHideMailSpam" style="display:none">اخطار!</a>
+			</div>
+		</div>
+	<div class="formField2">
+		<input type="submit" id="bComSub" class="sendbutton hasCheckbox" value="ارسال">
+	</div>
+	<div style="clear:both"></div>
+	</form>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<footer class="wb-footer last-mim container-fluid">
+<div class="wb-bayan">
+<span>
+<svg width="24" height="24" style="fill:rgba(153, 156, 162, 1);transform:;-ms-filter:" viewBox="0 0 24 24"><path d="M18.404,2.998c-0.757-0.754-2.077-0.751-2.828,0.005l-1.784,1.791L11.586,7H7C6.579,7,6.204,7.263,6.061,7.658l-4,11 c-0.133,0.365-0.042,0.774,0.232,1.049l2,2C4.483,21.898,4.739,22,5,22c0.114,0,0.23-0.02,0.342-0.061l11-4 C16.737,17.796,17,17.421,17,17v-4.586l2.207-2.207c0,0,0,0,0-0.001c0.001,0,0.001,0,0.001,0L21,8.409 c0.378-0.378,0.586-0.881,0.585-1.415c0-0.535-0.209-1.038-0.588-1.415L18.404,2.998z M15.293,11.293 C15.105,11.48,15,11.734,15,12v4.3l-9.249,3.363l4.671-4.671C10.448,14.993,10.474,15,10.5,15c0.828,0,1.5-0.672,1.5-1.5 S11.328,12,10.5,12S9,12.672,9,13.5c0,0.026,0.007,0.052,0.008,0.078l-4.671,4.671L7.7,9H12c0.266,0,0.52-0.105,0.707-0.293 L14.5,6.914L17.086,9.5L15.293,11.293z M18.499,8.085l-2.586-2.586l1.079-1.084l2.593,2.581L18.499,8.085z"></path></svg>
+قدرت گرفته از
+<a href="https://blog.ir" target="_blank"> بلاگ</a>
+<a href="https://bayan.ir" target="_blank"> بیان</a>
+</span>
+</div>
+<div class="wb-mimr">
+<svg width="24" height="24" style="fill:rgba(153, 156, 162, 1);transform:;-ms-filter:" viewBox="0 0 24 24"><path d="M18.944,11.112C18.507,7.67,15.56,5,12,5C9.244,5,6.85,6.611,5.757,9.15C3.609,9.792,2,11.82,2,14c0,2.757,2.243,5,5,5h11 c2.206,0,4-1.794,4-4C22,13.12,20.695,11.538,18.944,11.112z M18,17H7c-1.654,0-3-1.346-3-3c0-1.404,1.199-2.756,2.673-3.015 l0.581-0.102l0.192-0.558C8.149,8.274,9.895,7,12,7c2.757,0,5,2.243,5,5v1h1c1.103,0,2,0.897,2,2S19.103,17,18,17z"></path></svg>
+طراحی قالب از
+<a href="http://asemanam.blog.ir">
+محمدرضا...
+</a>
+</div>
+<div class="wb-copyright">
+<svg width="24" height="24" style="fill:rgba(153, 156, 162, 1);transform:;-ms-filter:" viewBox="0 0 24 24"><path d="M12,22c5.421,0,10-4.579,10-10S17.421,2,12,2S2,6.579,2,12S6.579,22,12,22z M12,4c4.337,0,8,3.663,8,8s-3.663,8-8,8 s-8-3.663-8-8S7.663,4,12,4z"></path><path d="M12,17c0.901,0,2.581-0.168,3.707-1.292l-1.414-1.416C13.85,14.735,12.992,15,12,15c-1.626,0-3-1.374-3-3s1.374-3,3-3 c0.993,0,1.851,0.265,2.293,0.707l1.414-1.414C14.582,7.168,12.901,7,12,7c-2.757,0-5,2.243-5,5S9.243,17,12,17z"></path></svg>
+برای یادگیری کپی نکنید، تمرین کنید!
+</div>
+</footer>
+</div>
+</div>
+</body></html>
