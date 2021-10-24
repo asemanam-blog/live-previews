@@ -1,0 +1,560 @@
+<!DOCTYPE html><html lang="fa"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	  ga('create', 'UA-82501833-1', 'auto');
+	  ga('send', 'pageview', {'dimension1': 'fS_pE9-c1Ak'});
+	</script>
+	<meta name="keywords" content=",">
+	<meta name="description" content="در این مجموعه از مقالات، برخی از مفاهیم پایه openSUSE  ارائه شده و به بعضی از برنامه‌های پایه‌ای اشاره می‌شود. این مجموعه می‌تواند مورد توجه کاربران تازه‌کار لینوکس که از اپن سوزاه استفاده ...">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="robots" content="index, follow">
+	<title>مفاهیم پایه‌ای لینوکس OpenSUSE :: گل صورتی</title>
+	<link rel="alternate" type="application/rss+xml" href="../../../rss/index.html">
+	<meta name="date" content="2020-06-04T01:36:58">
+	<meta name="last-modified" content="2020-06-04T01:36:58">
+	<meta http-equiv="last-modified" content="2020-06-04T01:36:58">
+	<link rel="top" href="../../../index.html">
+	<meta name="generator" content="blog.ir">
+	<link href="http://blog.ir/media/css/sharedrtl.css?uMV-Qp" rel="stylesheet" type="text/css">
+	<link href="../../../static/Fvg5IXWxOY4/297615601/style.css" rel="stylesheet" type="text/css">
+	<script>
+		var constant = {
+			stats: [['VIEW_STAT_POSTS_COUNT', ' مجموع مطالب', '12'], ['VIEW_STAT_COMMENTS_COUNT', ' مجموع نظرات', '3']],
+			LOGIN_LINK:"//bayan.ir/service/blog/",
+			REGISTER_LINK: "//bayan.ir/register/"
+		};
+	</script>
+	<script src="http://blog.ir/media/script/blog.min.js?HNLMGw" charset="utf-8"></script>	<script>(function(){
+    window._rb={id:'bl!fS_pE9-c1Ak', vi:'d746e11a5a9ba15aae83e08dee36e315', dh:'93de394317dd0715fc46d6682b4fc79d', fp: 'repf=31&reph=TZpPNMtQFZaJ-EFGrXL2aw==&repc=display_stat&rept=1592227998'};
+    var s=document.createElement('script'),
+        h=document.getElementsByTagName('script')[0];
+    s.async="async";
+    s.src='//radar.bayan.ir/rb.js?v=e2';
+    h.parentNode.insertBefore(s,h);
+}())</script>
+<noscript><img src="http://radar.bayan.ir/bl!fS_pE9-c1Ak/rb.gif?nos&amp;vi=d746e11a5a9ba15aae83e08dee36e315&amp;dh=93de394317dd0715fc46d6682b4fc79d&amp;refx=aHR0cDovL3NoYW5rcy5ibG9nLmlyLw==" alt="" title="a" border="0"></noscript>
+	<script async src="http://blog.ir/media/script/ckeditor/4.12.1/ckeditor.js?Gx1KP8"></script>
+<link href="http://bayanbox.ir/download/5288479852257857761/favicon.ico" rel="shortcut icon">
+</head>
+<body> 
+<div class="wrap">
+<header> 
+<div class="blackthemeMainBox container">
+<h1>
+<a href="../../../index.html">
+گل صورتی
+</a>
+</h1>
+<h2>
+قالب عاشقان موزیک
+</h2>
+</div>
+</header> 
+<div class="blackthemeMainBox">
+<nav> 
+<div class="menu">
+<ul class="ulMenu">
+<li class="menuHome"><a href="../../../index.html">home</a></li>
+<li>
+<a href="مفاهیم-پایه-ای-لینوکس-OpenSUSE.html">web</a>
+<ul>
+<li><a href="../../../archive/index.html">titles</a></li>
+<li><a href="../../../rss/index.html">rss</a></li>
+</ul>
+</li>
+ 
+ 
+<li>
+<a href="مفاهیم-پایه-ای-لینوکس-OpenSUSE.html">archive</a>
+<ul>
+<li>
+<a href="../../../archive/1399/3/index.html">
+خرداد ۱۳۹۹
+</a>
+</li>
+<li>
+<a href="../../../archive/1399/1/index.html">
+فروردين ۱۳۹۹
+</a>
+</li>
+</ul>
+</li>
+ 
+ 
+</ul>
+</div>
+</nav> 
+<section class="nav show-md"> 
+<ul style="font-weight: bold;">
+<li>
+<a href="../../../index.html">
+خانه
+</a>
+</li>
+<li>
+<a href="../../../page/about-me.html">
+درباره من
+</a>
+</li>
+<li>
+<a href="../../../post/1.html">
+سرآغاز
+</a>
+</li>
+<li>
+<a href="../../../page/تماس-با-من.html">
+تماس با من
+</a>
+</li>
+</ul>
+</section> 
+<div class="partWrap"> 
+<div class="partRight"> 
+ 
+ 
+<article>
+<div class="post">
+<h2 style="margin-bottom: 0;">
+<a href="مفاهیم-پایه-ای-لینوکس-OpenSUSE.html">
+مفاهیم پایه‌ای لینوکس OpenSUSE
+</a>
+</h2>
+<div class="postData">
+<a href="مفاهیم-پایه-ای-لینوکس-OpenSUSE.html">+</a>
+۱۳۹۹/۳/۱۵ | ۰۶:۰۶ | لوفی ...
+</div>
+<div class="postcontent">
+<p>در این مجموعه از مقالات، برخی از مفاهیم پایه openSUSE  ارائه شده و به بعضی از برنامه‌های پایه‌ای اشاره می‌شود. این مجموعه می‌تواند مورد توجه کاربران تازه‌کار لینوکس که از اپن سوزاه استفاده می کنند، قرار گیرد. در این مجموعه، فرض بر این است که کاربران، تجربه کار با کامپیوتر را داشته‌اند . </p>
+<blockquote><p class="headersuse">اولین چیزهایی که یک کاربر تازه‌کار openSUSE انجام می‌دهد</p></blockquote>
+<p>به عنوان نمونه، اولین چیزی که یک کاربر تازه‌وارد اپن‌سوزاه می‌خواهد انجام دهد این است که به محض این که سیستم عامل کار نصبش تمام شد، برود و بر روی پروژه‌ی خودش کار کند. اما باید بداند که بهتر است قبل از این کار برود و یک سری از چیزهای بنیادی لینوکس را یاد بگیرد، در این باره که لینوکس چطور کار می کند، تا از هدر رفت زمان در آینده جلوگیری کند. لینوکس به روشی متفاوت از سیستم‌عامل‌هایی چون <span style="font-size:12.8px"><span style='font-family:"Lucida Grande", Arial, "DejaVu Sans", Verdana, sans-serif'>MacOS یا مایکروسافت ویندوز، کار می‌کند و برای ذخیره زمان این تفاوت بایستی درک شود.</span></span></p>
+<div class="warning"><p><span style="font-size:12.8px"><span style='font-family:"Lucida Grande", Arial, "DejaVu Sans", Verdana, sans-serif'><u><font color="#ff0000">هشدار</font></u>  همچون دیگر سیستم‌عامل‌ها، راه‌اندازی یک جلسه دسکتاپ (‌ </span></span><span style="font-size:12.8px"><span style='font-family:"Lucida Grande", Arial, "DejaVu Sans", Verdana, sans-serif'>desktop session ) به عنوان مدیر (</span></span><span style="font-size:12.8px"><span style='font-family:"Lucida Grande", Arial, "DejaVu Sans", Verdana, sans-serif'>administrator) - </span></span><span style="font-size:12.8px"><span style='font-family:"Lucida Grande", Arial, "DejaVu Sans", Verdana, sans-serif'>( که در گذشته root گفته می‌شد ) کار عاقلانه‌ای نیست و بسیار خطرناک است.</span></span></p></div>
+<h3>دو تفاوت عمده وجود دارد</h3>
+<h4>مشهودترین تفاوت،‌ رابط کاربری است</h4>
+<div>رابط کاربری گرافیکی ( <a target="_blank" href="https://en.opensuse.org/GUI">GUI</a> ) در اپن‌سوزاه کمی با ویندوز و  <span style="font-size:12.8px"><span style='font-family:"Lucida Grande", Arial, "DejaVu Sans", Verdana, sans-serif'>MacOS متفاوت است اما این تفاوت‌‌ها بیشتر در آرایش و چینش‌ها می‌باشد. میزکار </span></span><span style="font-size:12.8px"><span style='font-family:"Lucida Grande", Arial, "DejaVu Sans", Verdana, sans-serif'><a target="_blank" href="https://en.opensuse.org/KDE">KDE</a> Plasma ( که در مقابلش <a target="_blank" href="https://en.opensuse.org/GNOME">GNOME</a>، یک میزکار دیگر ) به صورت خاصی شبیه رابط‌های کاربری دیگر است: بیشتر چیزهای پایه‌ای یکسانند، ویندوز، دارای پنجره‌هایی است که از یک قاب، نوار عنوان، یک دکمه تنظیمات پنجره در بخش سمت چپ نوار عنوان، و دکمه‌های کوچک‌کننده و بزرگ‌کننده و بستن پنجره در بخش سمت راست نوار عنوان تشکیل می‌شوند. </span></span><span style="font-size:12.8px"><span style='font-family:"Lucida Grande", Arial, "DejaVu Sans", Verdana, sans-serif'>اگر کاربر تصمیم دارد از theme متفاوتی استفاده کند </span></span><span style="font-size:12.8px"><span style='font-family:"Lucida Grande", Arial, "DejaVu Sans", Verdana, sans-serif'>این تنظیمات پیش‌فرض به راحتی قابل تغییرند، اما این پیش‌فرض‌ها طراحی شدند تا به کاربر احساس همیشگی، بودن در خانه را هنگام استفاده از لینوکس دهند. </span></span>
+</div>
+<h3>دومین تفاوت زیاد مشهود نیست ( در نگاه اولیه )</h3>
+<div>این نوع از تفاوت‌ها شامل موارد بسیار زیادی می‌شود. یکی از تفاوت‌‌هایی که هر کاربر تازه‌کاری به سرعت پیدایش می‌کند این است: برنامه‌هایی که برای ویندوز طراحی شده‌اند نیاز به یک لایه سازگاری خاصی دارند که به وسیله <a target="_blank" href="https://en.opensuse.org/Wine">WINE</a> یا ( <b style='padding:0px; border:0px; outline:0px; font-size:12.8px; background:#fefefe; font-family:"Lucida Grande", Arial, "DejaVu Sans", Verdana, sans-serif'>W</b> <b style='padding:0px; border:0px; outline:0px; font-size:12.8px; background:#fefefe; font-family:"Lucida Grande", Arial, "DejaVu Sans", Verdana, sans-serif'>I</b><span style="font-size:12.8px"><span style='font-family:"Lucida Grande", Arial, "DejaVu Sans", Verdana, sans-serif'>s </span></span><b style='padding:0px; border:0px; outline:0px; font-size:12.8px; background:#fefefe; font-family:"Lucida Grande", Arial, "DejaVu Sans", Verdana, sans-serif'>N</b><span style="font-size:12.8px"><span style='font-family:"Lucida Grande", Arial, "DejaVu Sans", Verdana, sans-serif'>ot an </span></span><b style='padding:0px; border:0px; outline:0px; font-size:12.8px; background:#fefefe; font-family:"Lucida Grande", Arial, "DejaVu Sans", Verdana, sans-serif'>E</b><span style="font-size:12.8px"><span style='font-family:"Lucida Grande", Arial, "DejaVu Sans", Verdana, sans-serif'>mulator ) تامین می‌شود که برای بسیار از برنامه‌ها کار می‌کند،‌ دارند. معماری فایل سیستم لینوکس به طور قابل توجهی با ویندوز و </span></span><span style="font-size:12.8px"><span style='font-family:"Lucida Grande", Arial, "DejaVu Sans", Verdana, sans-serif'>MacOS متفاوت است. مدیریت لینوکس بدون اجرای میزکار به عنوان کاربر root کار بسیار آسان‌تری است. یکی از تفاوت‌‌های مهم دیگر، روش نصب و تغییر برنامه‌ها است که با ویندوز و </span></span><span style="font-size:12.8px"><span style='font-family:"Lucida Grande", Arial, "DejaVu Sans", Verdana, sans-serif'>MacOS بسیار متفاوت است. این لیست طولانی‌تر است و در آینده به جزئیات توضیح داده خواهد شد اما این ۴ مثال بیشتر برای کاربران پیشترفته بود ( که تا به حال لینوکس را امتحان نکردند ) که باید عادات کامپیوتری خود برای لینوکس تغییر دهند. چرا فقط کاربران پیشرفته؟ خیلی ساده،‌ این افراد به دنبال تنظیمات و امکانات برابر ویندوز در عمق سیستم‌عامل می‌گردند و تفاوت‌های مابین ویندوز و لینوکس را برخواهند شمرد. کاربران پیشرفته معمولا نیاز دارند که به اعماق فرو روند تا جزئیات پیشرفته را بفهمند و تغییر دهند چرا که وقتی از یک کامپیوتر استفاده می‌کنند، لینوکس تفاوتی در اصل موضوع کارکرد و فهم و شکل دادن به آن ندارد.</span></span>
+</div>
+<div> </div>
+<div><h2 class="headersuse">لینک‌های خارجی</h2></div>
+<div>
+<ul>
+<li><a target="_blank" href="http://en.wikibooks.org/wiki/Linux_For_Newbies">Wikibook Linux For Newbies Guide</a></li>
+<li><a target="_blank" href="http://en.wikipedia.org/wiki/Linux">Linux article on Wikipedia</a></li>
+</ul>
+<div>منبع: <a target="_blank" href="https://en.opensuse.org/Concepts">Wiki openSUSE</a> </div>
+</div>
+</div>
+ 
+<a name="comments"></a>
+<div class="postComment"> 
+<div>
+<span>
+<a href="مفاهیم-پایه-ای-لینوکس-OpenSUSE.html#comments">۲ CM
+</a>
+<span class="rate-box ">
+<span class="rate-button-box rate-up " style="float: left; margin-right: .2em;">
+<a class="rate-button" href="http://shanks.blog.ir/process/rate_post/8ndSD78VJIs/2" rel="nofollow" title="like">
+<svg width="24" height="24" viewBox="0 0 24 24"><path d="M20.205,4.791c-1.137-1.131-2.631-1.754-4.209-1.754c-1.483,0-2.892,0.552-3.996,1.558 c-1.104-1.006-2.512-1.558-3.996-1.558c-1.578,0-3.072,0.623-4.213,1.758c-2.353,2.363-2.352,6.059,0.002,8.412L12,21.414 l8.207-8.207C22.561,10.854,22.562,7.158,20.205,4.791z"></path></svg>
+<span class="rate-counter">۰</span>
+</a>
+</span>
+</span>
+</span>
+</div>
+</div> 
+<section class="mimr-comment">
+ 
+<a name="comment-WKMCnnuEuMg"></a>
+<div class="comment-send">
+<div class="comment-send-first-send">
+<img src="http://blog.ir/media/images/guest.png?1" alt="دوست بلاگی">
+<a href="مفاهیم-پایه-ای-لینوکس-OpenSUSE.html" target="_blank" style="background-color: white;padding: 0 1em;">
+دوست بلاگی
+</a>
+</div>
+<div class="comment-send-second">
+<p>طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آیندهطراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده</p>
+</div>
+<div class="comment-send-third">
+۲۶ خرداد ۹۹
+</div>
+</div>
+<div class="comment-send" style="margin-bottom: 5em;">
+<div class="comment-send-first">
+پاسخ
+</div>
+<div class="comment-send-second">
+اوکی 😁طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و 
+سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای
+ متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه 
+درصد گذشته حال و آیندهطراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و 
+سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای
+ متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه 
+درصد گذشته حال و آینده
+</div>
+<div class="comment-send-third">
+۲۶ خرداد ۹۹
+</div>
+</div>
+ 
+<a name="comment-XczuP8jtw_g"></a>
+<div class="comment-send">
+<div class="comment-send-first-send">
+<img src="http://blog.ir/media/images/guest.png?1" alt="درس‌های وبلاگی">
+<a href="مفاهیم-پایه-ای-لینوکس-OpenSUSE.html" target="_blank" style="background-color: white;padding: 0 1em;">
+درس‌های وبلاگی
+</a>
+</div>
+<div class="comment-send-second">
+<p>شوخی جزوی از کارماست ... طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده</p>
+</div>
+<div class="comment-send-third">
+۲۶ خرداد ۹۹
+</div>
+</div>
+<div class="comment-send" style="margin-bottom: 5em;">
+<div class="comment-send-first">
+پاسخ
+</div>
+<div class="comment-send-second">
+بله ... درسته درس‌دهنده‌ی بلاگی 😁<br>
+</div>
+<div class="comment-send-third">
+۲۶ خرداد ۹۹
+</div>
+</div>
+ 
+<a name="send_comment"></a>
+
+
+
+
+	<div class="item_success"><div class="icon"></div>ارسال نظر آزاد است، اما اگر قبلا در <a href="http://id.bayan.ir/">بیان</a> <a href="http://bayan.ir/register/?service=blog&amp;next=http%3A%2F%2Fshanks.blog.ir%2F1399%2F03%2F15%2F%25D9%2585%25D9%2581%25D8%25A7%25D9%2587%25DB%258C%25D9%2585-%25D9%25BE%25D8%25A7%25DB%258C%25D9%2587-%25D8%25A7%25DB%258C-%25D9%2584%25DB%258C%25D9%2586%25D9%2588%25DA%25A9%25D8%25B3-OpenSUSE" target="_blank" rel="nofollow">ثبت نام</a> کرده اید می توانید ابتدا <a href="http://bayan.ir/service/blog/?service=blog&amp;next=http%3A%2F%2Fshanks.blog.ir%2F1399%2F03%2F15%2F%25D9%2585%25D9%2581%25D8%25A7%25D9%2587%25DB%258C%25D9%2585-%25D9%25BE%25D8%25A7%25DB%258C%25D9%2587-%25D8%25A7%25DB%258C-%25D9%2584%25DB%258C%25D9%2586%25D9%2588%25DA%25A9%25D8%25B3-OpenSUSE" rel="nofollow">وارد شوید</a>.</div>
+	
+	<form class="bComForm" id="bComFormElem" action="http://shanks.blog.ir/process/comment_add/8ndSD78VJIs" method="post">
+	<div class="anon-hide "><div class="in">
+		<div class="formField2">
+			<label>نام *</label>
+			<div class="fldcontent">
+			
+				<div class="inputFix">
+					<input type="text" class="text" name="fullname" 
+						value="">
+				</div>
+			
+
+			</div>
+		</div>
+		<div class="formField2">
+			<label>پست الکترونيک</label>
+			<div class="fldcontent">
+				<div class="inputFix">
+					<input type="text" class="text ltr" name="email" value="">
+				</div>
+			
+
+			</div>
+		</div>
+		<div class="formField2">
+			<label>سایت یا وبلاگ</label>
+			<div class="fldcontent">
+				
+					<div class="inputFix">
+					<input type="text" class="text ltr" name="website" value="">
+					</div>
+				
+
+			</div>
+		</div>
+	</div></div>
+	<div class="formField2">
+		<label>پیام *</label>
+		<div class="fldcontent">
+				<textarea name="comment" id="commenthtmlbox" cols="60" rows="8"></textarea>
+				<input type="hidden" id="commentWithEditor" name="settings_WITH_EDITOR" value="">
+				<div class="smalltip" id="commentEditTagsDesc">شما میتوانید از این تگهای html استفاده کنید:   <div class="ltr">&lt;b&gt; یا &lt;strong&gt;، &lt;em&gt; یا &lt;i&gt;، &lt;u&gt;، &lt;strike&gt; یا &lt;s&gt;، &lt;sup&gt;، &lt;sub&gt;،  &lt;blockquote&gt;، &lt;code&gt;، &lt;pre&gt;، &lt;hr&gt;، &lt;br&gt;، &lt;p&gt;، &lt;a href="" title=""&gt;، &lt;span style=""&gt;، &lt;div align=""&gt;</div></div>
+			<input type="hidden" id="commentJsEnabled" name="settings_WITH_JS" value="">
+			<input type="hidden" id="commentJsError" name="commentJsError" value="">
+			
+
+		</div>
+	</div>
+		
+	
+	<div class="formField2">
+		<label>کد امنیتی *</label>
+		<input type="hidden" id="cap_code_10479888" name="captcha_code" value="1592227998-ba8eb3dfdf1704924bef925739980331">
+		<div class="fldcontent">
+			<input type="text" class="text ltr" name="captcha_key" id="captchaInput" style="width:60px;">
+			<a href="مفاهیم-پایه-ای-لینوکس-OpenSUSE.html#" onclick="renew_captcha(10479888);event.preventDefault()">
+				<img class="renew" src="http://blog.ir/media/images/cleardot.gif" alt="تجدید" title="تجدید"></a>
+			<img id="cap_img_10479888" src="http://shanks.blog.ir/process/captcha/1592227998-ba8eb3dfdf1704924bef925739980331" alt="کد امنیتی" title="کد امنیتی">
+			<span id="captchaDesc" class="smalltip" style="visibility:hidden">ارقام فارسی و انگلیسی پذیرفته می‌شوند</span>
+			
+
+		</div>
+	</div>
+
+			<div class="formField2">
+				<div class="fldcontent">
+					<input id="frm_isprivate" type="checkbox" name="status" value="private" >
+					<label for="frm_isprivate">نظر بصورت خصوصی ارسال شود</label>
+					<div class="smalltip" style="display:none" id="frmPrivateNotice">نظر شما به هیچ وجه امکان عمومی شدن در قسمت نظرات را ندارد، و تنها راه پاسخگویی به آن نیز از طریق پست الکترونیک می‌باشد. بنابراین در صورتیکه مایل به دریافت پاسخ هستید، پست الکترونیک خود را وارد کنید.</div>
+					
+
+				</div>
+			</div>
+		<div class="formField2 anon-hide">
+			<div class="fldcontent">
+				<input id="frm_hide_mail" type="checkbox" name="hide_mail" value="0" >
+				<input type="hidden" name="hide_mail" value="1">
+				<label for="frm_hide_mail">پست الکترونیک برای عموم قابل مشاهده باشد</label>
+				<a href="مفاهیم-پایه-ای-لینوکس-OpenSUSE.html#" class="smalltip" id="frmHideMailSpam" style="display:none">اخطار!</a>
+			</div>
+		</div>
+	<div class="formField2">
+		<input type="submit" id="bComSub" class="sendbutton hasCheckbox" value="ارسال">
+	</div>
+	<div style="clear:both"></div>
+	</form>
+
+</section>
+</div>
+</article>
+ 
+ 
+ 
+</div> 
+<div class="partLeft"> 
+<div class="box imgBox"> 
+<div class="img">
+<span>
+گل صورتی
+</span>
+<div class="cover"></div>
+</div>
+</div> 
+<div class="box text-center">
+<h6>about us <i class="fa fa-info"></i></h6>
+<div style="text-align: justify;">
+تولید کننده لورم ایپسوم<br>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده
+</div>
+</div>
+<div class="box">
+<h6>Pages <i class="fa fa-tag"></i></h6>
+<ul class="tagCloud">
+<li>
+<a href="../../../index.html">
+خانه
+</a>
+</li>
+<li>
+<a href="../../../page/about-me.html">
+درباره من
+</a>
+</li>
+<li>
+<a href="../../../post/1.html">
+سرآغاز
+</a>
+</li>
+<li>
+<a href="../../../page/تماس-با-من.html">
+تماس با من
+</a>
+</li>
+</ul>
+</div>
+ 
+<div class="box">
+<h6>tags <i class="fa fa-tag"></i></h6>
+<ul class="tagCloud">
+<li>
+<a href="../../../tag/دایه&#32;دایه.html">
+دایه دایه
+</a>
+</li>
+<li>
+<a href="../../../tag/یشم.html">
+یشم
+</a>
+</li>
+<li>
+<a href="../../../tag/سنگر.html">
+سنگر
+</a>
+</li>
+<li>
+<a href="../../../tag/yashm.html">
+yashm
+</a>
+</li>
+<li>
+<a href="../../../tag/لورم.html">
+لورم
+</a>
+</li>
+<li>
+<a href="../../../tag/ایپسوم.html">
+ایپسوم
+</a>
+</li>
+<li>
+<a href="../../../tag/یواش.html">
+یواش
+</a>
+</li>
+<li>
+<a href="../../../tag/وبلاگ&#32;نویسی&#32;حرفه&#32;ای.html">
+وبلاگ نویسی حرفه ای
+</a>
+</li>
+<li>
+<a href="../../../tag/وبلاگ&#32;نویسی.html">
+وبلاگ نویسی
+</a>
+</li>
+<li>
+<a href="../../../tag/وبلاگ.html">
+وبلاگ
+</a>
+</li>
+<li>
+<a href="../../../tag/بیان.html">
+بیان
+</a>
+</li>
+<li>
+<a href="../../../tag/بلاگ&#32;بیان.html">
+بلاگ بیان
+</a>
+</li>
+<li>
+<a href="../../../tag/بلاگ.html">
+بلاگ
+</a>
+</li>
+<li>
+<a href="../../../tag/blog.ir.html">
+blog.ir
+</a>
+</li>
+</ul>
+</div>
+ 
+<div class="box">
+<h6>Daily Links</h6>
+<ul class="tagCloud">
+<li>
+<a href="http://help.blog.ir" alt="/process/link_clicked/k6cOp2wkpI0/bf4004b2521d0c5ee8fc41648d7909f0">
+پاسخ به سوالات وبلاگ نویسان
+</a>
+</li>
+<li>
+<a href="http://blog.ir/changes" alt="/process/link_clicked/Sdp9Lq2EfSg/52020cc49af688c907650913b4a27ed9">
+آخرین وبلاگ های به روز شده
+</a>
+</li>
+<li>
+<a href="http://bayan.blog.ir/1392/04/01" alt="/process/link_clicked/C4mq_ddsLmQ/397fc436e0a3fbc4e1d1efdcda333f72">
+زندگی به سبک بیان!
+</a>
+</li>
+</ul>
+</div>
+ 
+<div class="box text-center">
+<h6>Recent Posts</h6>
+<div class="d-block py-1">
+<a href="چگونه-openSUSE-را-تلفظ-کنیم.html">
+<h6 class="text-bold b-dotted d-block text-center" style="font-size: .7rem;">چگونه openSUSE را تلفظ کنیم؟</h6>
+</a>
+</div>
+<div class="d-block py-1">
+<a href="مفاهیم-پایه-ای-لینوکس-OpenSUSE.html">
+<h6 class="text-bold b-dotted d-block text-center" style="font-size: .7rem;">مفاهیم پایه‌ای لینوکس OpenSUSE</h6>
+</a>
+</div>
+<div class="d-block py-1">
+<a href="نرم-افزارهای-متن-باز-و-آزاد.html">
+<h6 class="text-bold b-dotted d-block text-center" style="font-size: .7rem;">نرم‌افزارهای متن‌باز و آزاد</h6>
+</a>
+</div>
+<div class="d-block py-1">
+<a href="بازی-برای-ساخت-قالب.html">
+<h6 class="text-bold b-dotted d-block text-center" style="font-size: .7rem;">بازی برای ساخت قالب</h6>
+</a>
+</div>
+<div class="d-block py-1">
+<a href="معرفی-انیمه-شیطان-کش.html">
+<h6 class="text-bold b-dotted d-block text-center" style="font-size: .7rem;">معرفی انیمه شیطان کش</h6>
+</a>
+</div>
+</div>
+<div class="box">
+<h6>Archive</h6>
+<ul class="tagCloud">
+<li>
+<a href="../../../archive/1399/3/index.html">
+خرداد ۱۳۹۹
+</a>
+</li>
+<li>
+<a href="../../../archive/1399/1/index.html">
+فروردين ۱۳۹۹
+</a>
+</li>
+</ul>
+</div>
+<div class="box">
+<h6>Links</h6>
+<ul class="tagCloud">
+<li>
+<a href="http://blog.ir/create-blog" alt="/process/link_clicked/gp68IlG-V4Y/c66dd800a99f75a3755f692c94bab1b2">
+ساخت وبلاگ جدید در blog.ir
+</a>
+</li>
+<li>
+<a href="http://mohajer.blog.ir" alt="/process/link_clicked/1TlP6Q0sMzQ/d198d10b21f55aca9b6daa2f8399e44a">
+نرم افزار مهاجرت به blog.ir
+</a>
+</li>
+<li>
+<a href="http://bayan.blog.ir" alt="/process/link_clicked/ihRJLlpY8ys/dbad931a7bf15ff93adfeddc1a971f17">
+وبلاگ رسمی شرکت بیان
+</a>
+</li>
+<li>
+<a href="http://bayanbox.ir" alt="/process/link_clicked/sT0Febfn07k/5c37a086f68dbf5250f5e83971fbbd64">
+صندوق بیان
+</a>
+</li>
+</ul>
+</div>
+</div> 
+</div> 
+</div>
+</div>
+<footer class="text-center"> 
+<div class="wrap">
+<span>
+قدرت گرفته از
+<a href="https://blog.ir" target="_blank"> بلاگ</a>
+<a href="https://bayan.ir" target="_blank"> بیان</a>
+</span>
+<span class="copyright">
+طراحی از
+<a href="http://blacktheme.ir" target="_blank"> بلک‌تم، </a>
+تغییر و ترجمه از
+<a href="https://asemanam.blog.ir" target="_blank"> محمدرضا ...</a>
+</span>
+</div>
+</footer> 
+</body></html>

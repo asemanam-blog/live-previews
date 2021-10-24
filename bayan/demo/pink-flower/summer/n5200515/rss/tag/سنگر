@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" 	xmlns:slash="http://purl.org/rss/1.0/modules/slash/">
+<channel>
+<title>گل صورتی</title>
+<link>http://luffy.blog.ir/</link>
+<description>قالب واکنش‌گرا و تابستانی</description>
+<language>fa</language>
+<generator>http://blog.ir/</generator>
+	<image>
+		<url>//bayanbox.ir/view/4882361575334443719/152055.png</url>
+		<title>گل صورتی</title>
+		<link>http://luffy.blog.ir/</link>
+	</image>
+	<lastBuildDate>Wed, 06 May 2020 07:50:32 +0430</lastBuildDate>
+	
+	<item>
+	<title>چگونه openSUSE را تلفظ کنیم؟</title>
+
+	<link>http://luffy.blog.ir/1399/02/17/%DA%86%DA%AF%D9%88%D9%86%D9%87-openSUSE-%D8%B1%D8%A7-%D8%AA%D9%84%D9%81%D8%B8-%DA%A9%D9%86%DB%8C%D9%85</link>
+	<description>&lt;div style="direction:rtl"&gt;&lt;p&gt;SUSE یک شرکت تجاری آلمانی است که در سال 2005 از سیستم عامل openSUSE به عنوان یک سیستم عامل غیر تجاری متن باز و جمعی، رونمایی کرد. در طی مدتی با کاربران لینوکس ایرانی و انگلیسی زبان که در ارتباط بودم، اولین سوالشان تلفظ صحیح این نام بود .&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;a href="http://luffy.blog.ir/1399/02/17/%DA%86%DA%AF%D9%88%D9%86%D9%87-openSUSE-%D8%B1%D8%A7-%D8%AA%D9%84%D9%81%D8%B8-%DA%A9%D9%86%DB%8C%D9%85"&gt;ادامه مطلب&lt;/a&gt;&lt;/div&gt;</description>
+		<pubDate>Wed, 06 May 2020 07:50:32 +0430</pubDate>
+	<comments>http://luffy.blog.ir/1399/02/17/%DA%86%DA%AF%D9%88%D9%86%D9%87-openSUSE-%D8%B1%D8%A7-%D8%AA%D9%84%D9%81%D8%B8-%DA%A9%D9%86%DB%8C%D9%85#comments</comments>
+		<dc:creator>ایزوکو میدوریا</dc:creator>
+	<guid isPermaLink="false">http://blog.ir/blogs/RDXt_YZY-zM/posts/DLF0lYxrxsw</guid>
+	<slash:comments>0</slash:comments>
+		<category>موضوع دوم</category>
+		<category>yashm</category>
+		<category>دایه دایه</category>
+		<category>سنگر</category>
+	</item>
+</channel>
+</rss>
