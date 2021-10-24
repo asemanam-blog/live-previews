@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /process/
+
+Sitemap: https://haeleshgh.blog.ir/sitemap.xml
