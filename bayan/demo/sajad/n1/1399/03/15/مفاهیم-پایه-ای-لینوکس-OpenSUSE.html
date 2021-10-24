@@ -1,883 +1,0 @@
-<!DOCTYPE html><html lang="fa" dir="rtl"><head>
-	<script>
-	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-	  ga('create', 'UA-82501833-1', 'auto');
-	  ga('send', 'pageview', {'dimension1': 'fS_pE9-c1Ak'});
-	</script>
-	<meta name="keywords" content=",">
-	<meta name="description" content="در این مجموعه از مقالات، برخی از مفاهیم پایه openSUSE  ارائه شده و به بعضی از برنامه‌های پایه‌ای اشاره می‌شود. این مجموعه می‌تواند مورد توجه کاربران تازه‌کار لینوکس که از اپن سوزاه استفاده ...">
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="robots" content="index, follow">
-	<title>مفاهیم پایه‌ای لینوکس OpenSUSE :: قالب سجاد</title>
-	<link rel="alternate" type="application/rss+xml" href="../../../rss/index.html">
-	<meta name="date" content="2020-06-04T01:36:58">
-	<meta name="last-modified" content="2020-06-04T01:36:58">
-	<meta http-equiv="last-modified" content="2020-06-04T01:36:58">
-	<link rel="top" href="../../../index.html">
-	<meta name="generator" content="blog.ir">
-	<script>
-		var constant = {
-			stats: [['VIEW_STAT_POSTS_COUNT', ' مجموع مطالب', '12'], ['VIEW_STAT_COMMENTS_COUNT', ' مجموع نظرات', '5'], ['VIEW_STAT_BLOG_LIFE_TIME', ' عمر سایت', '377 روز'], ['VIEW_STAT_FOLLWER_COUNT', 'تعداد دنبال\u200cکنندگان', '1'], ['VIEW_STAT_FOLLWING_COUNT', 'دنبال\u200cشده توسط نویسنده', '2']],
-			LOGIN_LINK:"https://bayan.ir/service/blog/",
-			REGISTER_LINK: "https://bayan.ir/register/"
-		};
-	</script>
-	<script src="http://blog.ir/media/script/blog.min.js?HNLMGw" charset="utf-8"></script>	<script>(function(){
-    window._rb={id:'bl!fS_pE9-c1Ak', vi:'cb2060661c919fa195ce196f94d7dbd1', dh:'93de394317dd0715fc46d6682b4fc79d', fp: 'repf=2047&reph=opnsdtj0K_izlAdhOtKBsg==&repc=display_stat&rept=1618016583'};
-    var s=document.createElement('script'),
-        h=document.getElementsByTagName('script')[0];
-    s.async="async";
-    s.src='//radar.bayan.ir/rb.js?v=e2';
-    h.parentNode.insertBefore(s,h);
-}())</script>
-<noscript><img src="http://radar.bayan.ir/bl!fS_pE9-c1Ak/rb.gif?nos&amp;vi=cb2060661c919fa195ce196f94d7dbd1&amp;dh=93de394317dd0715fc46d6682b4fc79d&amp;refx=aHR0cDovL3NoYW5rcy5ibG9nLmlyLw==" alt="" title="a" border="0"></noscript>
-	<link href="http://blog.ir/media/css/sharedrtl.css?uMV-Qp" rel="stylesheet" type="text/css">
-	<link href="../../../static/7PE9C446PJs/198798683/style.css" rel="stylesheet" type="text/css">
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<link href="http://www.fontonline.ir/css/BNasimBold.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
-</head>
-<body>
-<header>
-<div class="container-fluid bg-purple text-white shadow-lg text-center p-4">
-<a href="../../../index.html" class="text-reset text-decoration-none"><h1 class="title">قالب سجاد</h1></a>
-<span>قالبی برای علاقمندان به تولید محتوا</span>
-<nav class="navbar navbar-expand-sm mb-3 d-flex justify-content-center">
-<div class="">
-<ul class="navbar-nav" style="padding-right: 0px!important;">
-<li class="nav-item">
-<a class="nav-link text-reset " href="../../../index.html">خانه</a>
-</li>
-<li class="nav-item">
-<a class="nav-link text-reset " href="../../../page/about-me.html">درباره من</a>
-</li>
-<li class="nav-item">
-<a class="nav-link text-reset " href="../../../post/1.html">سرآغاز</a>
-</li>
-<li class="nav-item">
-<a class="nav-link text-reset " href="../../../page/تماس-با-من.html">تماس با من</a>
-</li>
-</ul>
-</div>
-</nav>
-</div>
-</header>
-<div class="container mt-3">
-<div class="row">
-<div class="col-md-9 mb-4">
-<div class="mb-3">
-<div class=" bg-back shadow-sm p-2">
-<h2 class="bold">مفاهیم پایه‌ای لینوکس OpenSUSE</h2>
-<span class="text-muted f-sm p-1"> ۱۵ خرداد ۱۳۹۹</span>
-<div class="mt-2">
-<p>در این مجموعه از مقالات، برخی از مفاهیم پایه openSUSE  ارائه شده و به بعضی از برنامه‌های پایه‌ای اشاره می‌شود. این مجموعه می‌تواند مورد توجه کاربران تازه‌کار لینوکس که از اپن سوزاه استفاده می کنند، قرار گیرد. در این مجموعه، فرض بر این است که کاربران، تجربه کار با کامپیوتر را داشته‌اند . </p>
-<blockquote><p class="headersuse">اولین چیزهایی که یک کاربر تازه‌کار openSUSE انجام می‌دهد</p></blockquote>
-<p>به عنوان نمونه، اولین چیزی که یک کاربر تازه‌وارد اپن‌سوزاه می‌خواهد انجام دهد این است که به محض این که سیستم عامل کار نصبش تمام شد، برود و بر روی پروژه‌ی خودش کار کند. اما باید بداند که بهتر است قبل از این کار برود و یک سری از چیزهای بنیادی لینوکس را یاد بگیرد، در این باره که لینوکس چطور کار می کند، تا از هدر رفت زمان در آینده جلوگیری کند. لینوکس به روشی متفاوت از سیستم‌عامل‌هایی چون <span style="font-size:12.8px"><span style='font-family:"Lucida Grande", Arial, "DejaVu Sans", Verdana, sans-serif'>MacOS یا مایکروسافت ویندوز، کار می‌کند و برای ذخیره زمان این تفاوت بایستی درک شود.</span></span></p>
-<div class="warning"><p><span style="font-size:12.8px"><span style='font-family:"Lucida Grande", Arial, "DejaVu Sans", Verdana, sans-serif'><u><font color="#ff0000">هشدار</font></u>  همچون دیگر سیستم‌عامل‌ها، راه‌اندازی یک جلسه دسکتاپ (‌ </span></span><span style="font-size:12.8px"><span style='font-family:"Lucida Grande", Arial, "DejaVu Sans", Verdana, sans-serif'>desktop session ) به عنوان مدیر (</span></span><span style="font-size:12.8px"><span style='font-family:"Lucida Grande", Arial, "DejaVu Sans", Verdana, sans-serif'>administrator) - </span></span><span style="font-size:12.8px"><span style='font-family:"Lucida Grande", Arial, "DejaVu Sans", Verdana, sans-serif'>( که در گذشته root گفته می‌شد ) کار عاقلانه‌ای نیست و بسیار خطرناک است.</span></span></p></div>
-<h3>دو تفاوت عمده وجود دارد</h3>
-<h4>مشهودترین تفاوت،‌ رابط کاربری است</h4>
-<div>رابط کاربری گرافیکی ( <a target="_blank" href="https://en.opensuse.org/GUI">GUI</a> ) در اپن‌سوزاه کمی با ویندوز و  <span style="font-size:12.8px"><span style='font-family:"Lucida Grande", Arial, "DejaVu Sans", Verdana, sans-serif'>MacOS متفاوت است اما این تفاوت‌‌ها بیشتر در آرایش و چینش‌ها می‌باشد. میزکار </span></span><span style="font-size:12.8px"><span style='font-family:"Lucida Grande", Arial, "DejaVu Sans", Verdana, sans-serif'><a target="_blank" href="https://en.opensuse.org/KDE">KDE</a> Plasma ( که در مقابلش <a target="_blank" href="https://en.opensuse.org/GNOME">GNOME</a>، یک میزکار دیگر ) به صورت خاصی شبیه رابط‌های کاربری دیگر است: بیشتر چیزهای پایه‌ای یکسانند، ویندوز، دارای پنجره‌هایی است که از یک قاب، نوار عنوان، یک دکمه تنظیمات پنجره در بخش سمت چپ نوار عنوان، و دکمه‌های کوچک‌کننده و بزرگ‌کننده و بستن پنجره در بخش سمت راست نوار عنوان تشکیل می‌شوند. </span></span><span style="font-size:12.8px"><span style='font-family:"Lucida Grande", Arial, "DejaVu Sans", Verdana, sans-serif'>اگر کاربر تصمیم دارد از theme متفاوتی استفاده کند </span></span><span style="font-size:12.8px"><span style='font-family:"Lucida Grande", Arial, "DejaVu Sans", Verdana, sans-serif'>این تنظیمات پیش‌فرض به راحتی قابل تغییرند، اما این پیش‌فرض‌ها طراحی شدند تا به کاربر احساس همیشگی، بودن در خانه را هنگام استفاده از لینوکس دهند. </span></span>
-</div>
-<h3>دومین تفاوت زیاد مشهود نیست ( در نگاه اولیه )</h3>
-<div>این نوع از تفاوت‌ها شامل موارد بسیار زیادی می‌شود. یکی از تفاوت‌‌هایی که هر کاربر تازه‌کاری به سرعت پیدایش می‌کند این است: برنامه‌هایی که برای ویندوز طراحی شده‌اند نیاز به یک لایه سازگاری خاصی دارند که به وسیله <a target="_blank" href="https://en.opensuse.org/Wine">WINE</a> یا ( <b style='padding:0px; border:0px; outline:0px; font-size:12.8px; background:#fefefe; font-family:"Lucida Grande", Arial, "DejaVu Sans", Verdana, sans-serif'>W</b> <b style='padding:0px; border:0px; outline:0px; font-size:12.8px; background:#fefefe; font-family:"Lucida Grande", Arial, "DejaVu Sans", Verdana, sans-serif'>I</b><span style="font-size:12.8px"><span style='font-family:"Lucida Grande", Arial, "DejaVu Sans", Verdana, sans-serif'>s </span></span><b style='padding:0px; border:0px; outline:0px; font-size:12.8px; background:#fefefe; font-family:"Lucida Grande", Arial, "DejaVu Sans", Verdana, sans-serif'>N</b><span style="font-size:12.8px"><span style='font-family:"Lucida Grande", Arial, "DejaVu Sans", Verdana, sans-serif'>ot an </span></span><b style='padding:0px; border:0px; outline:0px; font-size:12.8px; background:#fefefe; font-family:"Lucida Grande", Arial, "DejaVu Sans", Verdana, sans-serif'>E</b><span style="font-size:12.8px"><span style='font-family:"Lucida Grande", Arial, "DejaVu Sans", Verdana, sans-serif'>mulator ) تامین می‌شود که برای بسیار از برنامه‌ها کار می‌کند،‌ دارند. معماری فایل سیستم لینوکس به طور قابل توجهی با ویندوز و </span></span><span style="font-size:12.8px"><span style='font-family:"Lucida Grande", Arial, "DejaVu Sans", Verdana, sans-serif'>MacOS متفاوت است. مدیریت لینوکس بدون اجرای میزکار به عنوان کاربر root کار بسیار آسان‌تری است. یکی از تفاوت‌‌های مهم دیگر، روش نصب و تغییر برنامه‌ها است که با ویندوز و </span></span><span style="font-size:12.8px"><span style='font-family:"Lucida Grande", Arial, "DejaVu Sans", Verdana, sans-serif'>MacOS بسیار متفاوت است. این لیست طولانی‌تر است و در آینده به جزئیات توضیح داده خواهد شد اما این ۴ مثال بیشتر برای کاربران پیشترفته بود ( که تا به حال لینوکس را امتحان نکردند ) که باید عادات کامپیوتری خود برای لینوکس تغییر دهند. چرا فقط کاربران پیشرفته؟ خیلی ساده،‌ این افراد به دنبال تنظیمات و امکانات برابر ویندوز در عمق سیستم‌عامل می‌گردند و تفاوت‌های مابین ویندوز و لینوکس را برخواهند شمرد. کاربران پیشرفته معمولا نیاز دارند که به اعماق فرو روند تا جزئیات پیشرفته را بفهمند و تغییر دهند چرا که وقتی از یک کامپیوتر استفاده می‌کنند، لینوکس تفاوتی در اصل موضوع کارکرد و فهم و شکل دادن به آن ندارد.</span></span>
-</div>
-<div> </div>
-<div><h2 class="headersuse">لینک‌های خارجی</h2></div>
-<div>
-<ul>
-<li><a target="_blank" href="http://en.wikibooks.org/wiki/Linux_For_Newbies">Wikibook Linux For Newbies Guide</a></li>
-<li><a target="_blank" href="http://en.wikipedia.org/wiki/Linux">Linux article on Wikipedia</a></li>
-</ul>
-<div>منبع: <a target="_blank" href="https://en.opensuse.org/Concepts">Wiki openSUSE</a> </div>
-</div>
-</div>
-<hr>
-<div class="detail container mt-2">
-<div class="row">
-<div class="col-6 d-flex">
-<div><i class="bi bi-vector-pen ml-1"></i><span> نویسنده ...</span></div>
-</div>
-<div class="col-6 text-left">
-<div class="d-inline">
-<span class="rate-box ">
-<span class="rate-button-box rate-up ">
-<a class="rate-button text-decoration-none" href="http://example.blog.ir/process/rate_post/8ndSD78VJIs/2" rel="nofollow" title="like">
-<span class="rate-counter">۱</span>
-<img src="https://bayanbox.ir/view/8154146915950183688/like-removebg-preview.png" width="24px" alt="upvote">
-</a>
-</span>
-<span class="rate-button-box mx-2 rate-down ">
-<a class="rate-button text-decoration-none" href="http://example.blog.ir/process/rate_post/8ndSD78VJIs/1" rel="nofollow" title="dislike">
-<span class="rate-counter">۰</span>
-<img src="https://bayanbox.ir/view/5277420392482428103/dislike-removebg-preview.png" width="24px" alt="downvote">
-</a>
-</span>
-</span>
-</div>
-<div class="d-inline mr-3"><a class="text-decoration-none text-reset" href="مفاهیم-پایه-ای-لینوکس-OpenSUSE.html#comments"><i class="bi bi-chat-fill ml-1"></i><span> ۴ نظر</span></a></div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="mb-3">
-<div class=" bg-back shadow-sm p-2 text-center">
-<a class="text-decoration-none text-reset" name="comments"><h4 class="d-inline">نظرات</h4> </a>
-<span class="bg-danger text-white num">۴</span>
-</div>
-</div>
-<div class="mb-2 container bg-white">
-<div class="row py-2">
-<div class="col-2">
-<img class="avatar-img m-auto shadow" src="http://blog.ir/media/images/guest.png?1" alt="دوست بلاگی">
-</div>
-<div class="col-9 pr-5 p-md-0 ">
-<div class="row">
-<b> دوست بلاگی</b>
-<small class="mr-auto "> ۲۶ خرداد ۱۳۹۹</small>
-</div>
-<div class="row">
-<p>طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آیندهطراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده</p>
-</div>
-</div>
-</div>
-</div>
-<div class="mb-2 container bg-white w-90 " style="margin-right: 10%; width:90%;">
-<div class="row py-2">
-<div class="col-2">
-<img class="avatar-img m-auto shadow reply" src="http://id.bayan.ir/bayan/profile/avatar/UvPXT0i6ZkwOC5y4rKYgEHIycfU%3D/" alt="avatar">
-</div>
-<div class="col-9 pr-5 p-md-0 ">
-<div class="row">
-<b>نویسنده ...</b>
-</div>
-<div class="row">
-اوکی 😁طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و 
-سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای
- متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه 
-درصد گذشته حال و آیندهطراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و 
-سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای
- متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه 
-درصد گذشته حال و آینده
-</div>
-</div>
-</div>
-</div>
-<div class="mb-2 container bg-white">
-<div class="row py-2">
-<div class="col-2">
-<img class="avatar-img m-auto shadow" src="http://blog.ir/media/images/guest.png?1" alt="درس‌های وبلاگی">
-</div>
-<div class="col-9 pr-5 p-md-0 ">
-<div class="row">
-<b> درس‌های وبلاگی</b>
-<small class="mr-auto "> ۲۶ خرداد ۱۳۹۹</small>
-</div>
-<div class="row">
-<p>شوخی جزوی از کارماست ... طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده</p>
-</div>
-</div>
-</div>
-</div>
-<div class="mb-2 container bg-white w-90 " style="margin-right: 10%; width:90%;">
-<div class="row py-2">
-<div class="col-2">
-<img class="avatar-img m-auto shadow reply" src="http://id.bayan.ir/bayan/profile/avatar/UvPXT0i6ZkwOC5y4rKYgEHIycfU%3D/" alt="avatar">
-</div>
-<div class="col-9 pr-5 p-md-0 ">
-<div class="row">
-<b>نویسنده ...</b>
-</div>
-<div class="row">
-بله ... درسته درس‌دهنده‌ی بلاگی 😁
-</div>
-</div>
-</div>
-</div>
-<div class="mb-2 container bg-white">
-<div class="row py-2">
-<div class="col-2">
-<img class="avatar-img m-auto shadow" src="http://id.bayan.ir/bayan/profile/avatar/UvPXT0i6ZkwOC5y4rKYgEHIycfU%3D/" alt="نویسنده ...">
-</div>
-<div class="col-9 pr-5 p-md-0 ">
-<div class="row">
-<b> نویسنده ...</b>
-<small class="mr-auto "> ۱۰ آبان ۱۳۹۹</small>
-</div>
-<div class="row">
-<p>این یک متن آزمایشی است ... فقط همین ... :)) ... این یک متن آزمایشی است ... فقط همین ... :)) ...این یک متن آزمایشی است ... فقط همین ... :)) ...این یک متن آزمایشی است ... فقط همین ... :)) ...این یک متن آزمایشی است ... فقط همین ... :)) ...این یک متن آزمایشی است ... فقط همین ... :)) ...این یک متن آزمایشی است ... فقط همین ... :)) ...این یک متن آزمایشی است ... فقط همین ... :)) ...</p>
-</div>
-</div>
-</div>
-</div>
-<div class="mb-2 container bg-white">
-<div class="row py-2">
-<div class="col-2">
-<img class="avatar-img m-auto shadow" src="http://id.bayan.ir/bayan/profile/avatar/UvPXT0i6ZkwOC5y4rKYgEHIycfU%3D/" alt="نویسنده ...">
-</div>
-<div class="col-9 pr-5 p-md-0 ">
-<div class="row">
-<b> نویسنده ...</b>
-<small class="mr-auto "> ۱۰ آبان ۱۳۹۹</small>
-</div>
-<div class="row">
-<p>ت ... فقط همین ... :)) ...این یک متن آزمایشی است ... فقط همین ... :)) ...این یک متن آزمایشی است ... فقط همین ... :)) ...این یک متن</p>
-</div>
-</div>
-</div>
-</div>
-<div class="mb-2 mt-4">
-<div class=" bg-back shadow-sm p-2">
-<a name="send_comment"></a>
-<div class="wb-comment-add">
-
-
-
-
-	<div class="item_success"><div class="icon"></div>ارسال نظر آزاد است، اما اگر قبلا در <a href="http://id.bayan.ir/">بیان</a> <a href="https://bayan.ir/register/?service=blog&next=http%3A%2F%2Fexample.blog.ir%2F1399%2F03%2F15%2F%25D9%2585%25D9%2581%25D8%25A7%25D9%2587%25DB%258C%25D9%2585-%25D9%25BE%25D8%25A7%25DB%258C%25D9%2587-%25D8%25A7%25DB%258C-%25D9%2584%25DB%258C%25D9%2586%25D9%2588%25DA%25A9%25D8%25B3-OpenSUSE" target="_blank" rel="nofollow">ثبت نام</a> کرده اید می توانید ابتدا <a href="https://bayan.ir/service/blog/?service=blog&next=http%3A%2F%2Fexample.blog.ir%2F1399%2F03%2F15%2F%25D9%2585%25D9%2581%25D8%25A7%25D9%2587%25DB%258C%25D9%2585-%25D9%25BE%25D8%25A7%25DB%258C%25D9%2587-%25D8%25A7%25DB%258C-%25D9%2584%25DB%258C%25D9%2586%25D9%2588%25DA%25A9%25D8%25B3-OpenSUSE" rel="nofollow">وارد شوید</a>.</div>
-	
-	<form class="bComForm" id="bComFormElem" action="http://example.blog.ir/process/comment_add/8ndSD78VJIs" method="post">
-	<div class="anon-hide "><div class="in">
-		<div class="formField2">
-			<label>نام *</label>
-			<div class="fldcontent">
-			
-				<div class="inputFix">
-					<input type="text" class="text" name="fullname" 
-						value="">
-				</div>
-			
-
-			</div>
-		</div>
-		<div class="formField2">
-			<label>پست الکترونيک</label>
-			<div class="fldcontent">
-				<div class="inputFix">
-					<input type="text" class="text ltr" name="email" value="">
-				</div>
-			
-
-			</div>
-		</div>
-		<div class="formField2">
-			<label>سایت یا وبلاگ</label>
-			<div class="fldcontent">
-				
-					<div class="inputFix">
-					<input type="text" class="text ltr" name="website" value="">
-					</div>
-				
-
-			</div>
-		</div>
-	</div></div>
-	<div class="formField2">
-		<label>پیام *</label>
-		<div class="fldcontent">
-				<textarea name="comment" cols="60" rows="8"></textarea>
-			<input type="hidden" id="commentJsEnabled" name="settings_WITH_JS" value="">
-			<input type="hidden" id="commentJsError" name="commentJsError" value="">
-			
-
-		</div>
-	</div>
-		
-	
-	<div class="formField2">
-		<label>کد امنیتی *</label>
-		<input type="hidden" id="cap_code_10479888" name="captcha_code" value="1618016583-1fe5948243ad78163fac69793b30f9f2">
-		<div class="fldcontent">
-			<input type="text" class="text ltr" name="captcha_key" id="captchaInput" style="width:60px;">
-			<a href="مفاهیم-پایه-ای-لینوکس-OpenSUSE.html#" onclick="renew_captcha(10479888);event.preventDefault()">
-				<img class="renew" src="http://blog.ir/media/images/cleardot.gif" alt="تجدید" title="تجدید"></a>
-			<img id="cap_img_10479888" src="http://example.blog.ir/process/captcha/1618016583-1fe5948243ad78163fac69793b30f9f2" alt="کد امنیتی" title="کد امنیتی">
-			<span id="captchaDesc" class="smalltip" style="visibility:hidden">ارقام فارسی و انگلیسی پذیرفته می‌شوند</span>
-			
-
-		</div>
-	</div>
-
-			<div class="formField2">
-				<div class="fldcontent">
-					<input id="frm_isprivate" type="checkbox" name="status" value="private" >
-					<label for="frm_isprivate">نظر بصورت خصوصی ارسال شود</label>
-					<div class="smalltip" style="display:none" id="frmPrivateNotice">نظر شما به هیچ وجه امکان عمومی شدن در قسمت نظرات را ندارد، و تنها راه پاسخگویی به آن نیز از طریق پست الکترونیک می‌باشد. بنابراین در صورتیکه مایل به دریافت پاسخ هستید، پست الکترونیک خود را وارد کنید.</div>
-					
-
-				</div>
-			</div>
-		<div class="formField2 anon-hide">
-			<div class="fldcontent">
-				<input id="frm_hide_mail" type="checkbox" name="hide_mail" value="0" >
-				<input type="hidden" name="hide_mail" value="1">
-				<label for="frm_hide_mail">پست الکترونیک برای عموم قابل مشاهده باشد</label>
-				<a href="مفاهیم-پایه-ای-لینوکس-OpenSUSE.html#" class="smalltip" id="frmHideMailSpam" style="display:none">اخطار!</a>
-			</div>
-		</div>
-	<div class="formField2">
-		<input type="submit" id="bComSub" class="sendbutton hasCheckbox" value="ارسال">
-	</div>
-	<div style="clear:both"></div>
-	</form>
-
-</div>
-</div>
-</div>
-</div>
-<div class="col-md-3">
-<div class=" bg-side-back bg-white shadow-sm mb-4">
-<h5 class="bg-purple text-white d-inline-block mt-2 px-3 py-2 br-l bold">درباره ما</h5>
-<div class="con_img">
-<img class="about-img m-auto shadow" src="http://bayanbox.ir/view/4882361575334443719/152055.png" alt="قالب سجاد">
-</div>
-<div class="container">
-<p class="mt-3">تولید کننده لورم ایپسوم<br>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده</p>
-</div><div id="srchBx" class="search-box">
-    <form action="https://www.google.com/search" method="GET" target="_blank">
-        <div class="search-wrapper">
-            <input class="text" name="q" placeholder="جستجو ..." type="text">
-        </div>
-        <input type="hidden" name="q" value="site:example.blog.ir">
-        <input class="submit" type="submit" value="">
-    </form></div><script>updateSearchBoxTheme('srchBx')</script>
-
-<div class="followBx">
-	<div id="followInBx">
-			<div class="followersTitle">
-				دنبال کنندگان
-				<span class="followersCount">
-						۱
-					نفر
-				</span>
-			</div>
-			<a id="followThis" target="_blank" class="followThis" href="http://blog.ir/panel/-/followed_blogs?follow=example.blog.ir">
-				این وبلاگ را دنبال کنید
-			</a>
-	</div>
-</div>
-
-</div>
-	<div id="stat_summary_div" style="display:none;">
-<div class=" bg-side-back bg-white shadow-sm mb-4">
-<h5 class="bg-purple text-white d-inline-block mt-2 px-3 py-2 br-l bold">خلاصه آمار</h5>
-<div class="container mb-3">
-<div class="row mb-1">
-<div class="col-9">
-<span><span id="lang_VIEW_STAT_TOTAL"></span></span>
-</div>
-<div class="col-3"><span id="value_VIEW_STAT_TOTAL"></span></div>
-</div>
-<div class="row mb-1">
-<div class="col-9">
-<span><span id="lang_HIT_STAT_TOTAL"></span></span>
-</div>
-<div class="col-3"><span id="value_HIT_STAT_TOTAL"></span></div>
-</div>
-<div class="row mb-1">
-<div class="col-9">
-<span><span id="lang_HIT_STAT_TODAY"></span></span>
-</div>
-<div class="col-3"><span id="value_HIT_STAT_TODAY"></span></div>
-</div>
-<div class="row mb-1">
-<div class="col-9">
-<span><span id="lang_VIEW_STAT_TODAY"></span></span>
-</div>
-<div class="col-3"><span id="value_VIEW_STAT_TODAY"></span></div>
-</div>
-<div class="row mb-1">
-<div class="col-9">
-<span><span id="lang_HIT_STAT_YESTERDAY"></span></span>
-</div>
-<div class="col-3"><span id="value_HIT_STAT_YESTERDAY"></span></div>
-</div>
-<div class="row mb-1">
-<div class="col-9">
-<span><span id="lang_VIEW_STAT_YESTERDAY"></span></span>
-</div>
-<div class="col-3"><span id="value_VIEW_STAT_YESTERDAY"></span></div>
-</div>
-<div class="row mb-1">
-<div class="col-9">
-<span><span id="lang_HIT_STAT_DAY_AVERAGE"></span></span>
-</div>
-<div class="col-3"><span id="value_HIT_STAT_DAY_AVERAGE"></span></div>
-</div>
-<div class="row mb-1">
-<div class="col-9">
-<span><span id="lang_VIEW_STAT_DAY_AVERAGE"></span></span>
-</div>
-<div class="col-3"><span id="value_VIEW_STAT_DAY_AVERAGE"></span></div>
-</div>
-<div class="row mb-1">
-<div class="col-9">
-<span><span id="lang_HIT_STAT_PREVISION"></span></span>
-</div>
-<div class="col-3"><span id="value_HIT_STAT_PREVISION"></span></div>
-</div>
-<div class="row mb-1">
-<div class="col-9">
-<span><span id="lang_VIEW_STAT_PREVISION"></span></span>
-</div>
-<div class="col-3"><span id="value_VIEW_STAT_PREVISION"></span></div>
-</div>
-<div class="row mb-1">
-<div class="col-9">
-<span><span id="lang_VIEW_STAT_POSTS_COUNT"></span></span>
-</div>
-<div class="col-3"><span id="value_VIEW_STAT_POSTS_COUNT"></span></div>
-</div>
-<div class="row mb-1">
-<div class="col-9">
-<span><span id="lang_VIEW_STAT_COMMENTS_COUNT"></span></span>
-</div>
-<div class="col-3"><span id="value_VIEW_STAT_COMMENTS_COUNT"></span></div>
-</div>
-<div class="row mb-1">
-<div class="col-9">
-<span><span id="lang_VIEW_STAT_FOLLWER_COUNT"></span></span>
-</div>
-<div class="col-3"><span id="value_VIEW_STAT_FOLLWER_COUNT"></span></div>
-</div>
-<div class="row mb-1">
-<div class="col-9">
-<span><span id="lang_VIEW_STAT_FOLLWING_COUNT"></span></span>
-</div>
-<div class="col-3"><span id="value_VIEW_STAT_FOLLWING_COUNT"></span></div>
-</div>
-<div class="row mb-1">
-<div class="col-9">
-<span><span id="lang_VIEW_STAT_BLOG_LIFE_TIME"></span></span>
-</div>
-<div class="col-3"><span id="value_VIEW_STAT_BLOG_LIFE_TIME"></span></div>
-</div>
-<div class="row mb-1">
-<div class="col-9">
-<span><span id="lang_VIEW_STAT_ONLINE_USER"></span></span>
-</div>
-<div class="col-3"><span id="value_VIEW_STAT_ONLINE_USER"></span></div>
-</div>
-</div>
-</div></div>
-<div class=" bg-side-back bg-white shadow-sm mb-4">
-<h5 class="bg-purple text-white d-inline-block mt-2 px-3 py-2 br-l bold">برچسب ها</h5>
-<div class="container mb-3 ">
-<a href="../../../tag/بلاگ.html" class="text-reset text-decoration-none mimr-tags"><span class="f-sm tag px-2 text-white d-inline-block ">بلاگ</span></a>
-<a href="../../../tag/دایه&#32;دایه.html" class="text-reset text-decoration-none mimr-tags"><span class="f-sm tag px-2 text-white d-inline-block ">دایه دایه</span></a>
-<a href="../../../tag/یشم.html" class="text-reset text-decoration-none mimr-tags"><span class="f-sm tag px-2 text-white d-inline-block ">یشم</span></a>
-<a href="../../../tag/سنگر.html" class="text-reset text-decoration-none mimr-tags"><span class="f-sm tag px-2 text-white d-inline-block ">سنگر</span></a>
-<a href="../../../tag/yashm.html" class="text-reset text-decoration-none mimr-tags"><span class="f-sm tag px-2 text-white d-inline-block ">yashm</span></a>
-<a href="../../../tag/لورم.html" class="text-reset text-decoration-none mimr-tags"><span class="f-sm tag px-2 text-white d-inline-block ">لورم</span></a>
-<a href="../../../tag/ایپسوم.html" class="text-reset text-decoration-none mimr-tags"><span class="f-sm tag px-2 text-white d-inline-block ">ایپسوم</span></a>
-<a href="../../../tag/یواش.html" class="text-reset text-decoration-none mimr-tags"><span class="f-sm tag px-2 text-white d-inline-block ">یواش</span></a>
-<a href="../../../tag/وبلاگ&#32;نویسی&#32;حرفه&#32;ای.html" class="text-reset text-decoration-none mimr-tags"><span class="f-sm tag px-2 text-white d-inline-block ">وبلاگ نویسی حرفه ای</span></a>
-<a href="../../../tag/وبلاگ&#32;نویسی.html" class="text-reset text-decoration-none mimr-tags"><span class="f-sm tag px-2 text-white d-inline-block ">وبلاگ نویسی</span></a>
-<a href="../../../tag/وبلاگ.html" class="text-reset text-decoration-none mimr-tags"><span class="f-sm tag px-2 text-white d-inline-block ">وبلاگ</span></a>
-<a href="../../../tag/بیان.html" class="text-reset text-decoration-none mimr-tags"><span class="f-sm tag px-2 text-white d-inline-block ">بیان</span></a>
-<a href="../../../tag/بلاگ&#32;بیان.html" class="text-reset text-decoration-none mimr-tags"><span class="f-sm tag px-2 text-white d-inline-block ">بلاگ بیان</span></a>
-<a href="../../../tag/blog.ir.html" class="text-reset text-decoration-none mimr-tags"><span class="f-sm tag px-2 text-white d-inline-block ">blog.ir</span></a>
-</div>
-</div>
-<div class=" bg-side-back bg-white shadow-sm mb-4">
-<h5 class="bg-purple text-white d-inline-block mt-2 px-3 py-2 br-l bold"> آرشیو مطالب</h5>
-<div class="container mb-2">
-<div class="row">
-<div class="col">
-<a href="../../../archive/1399/3/index.html" class="text-reset text-decoration-none">
-<i class="bi bi-archive"></i>
-<span>خرداد ۱۳۹۹</span>
-<span class="tag text-white px-2 bf-pjuple f-xsm">۱۰مطلب</span>
-</a>
-</div>
-</div>
-<div class="row">
-<div class="col">
-<a href="../../../archive/1399/1/index.html" class="text-reset text-decoration-none">
-<i class="bi bi-archive"></i>
-<span>فروردين ۱۳۹۹</span>
-<span class="tag text-white px-2 bf-pjuple f-xsm">۲مطلب</span>
-</a>
-</div>
-</div>
-</div>
-</div>
-<div class=" bg-side-back bg-white shadow-sm mb-4">
-<h5 class="bg-purple text-white d-inline-block mt-2 px-3 py-2 br-l bold">آخرین مطالب</h5>
-<div class="container mb-2">
-<div class="bg-light mb-1 hov rounded border">
-<a href="چگونه-openSUSE-را-تلفظ-کنیم.html" class="text-reset text-decoration-none">
-<i class="bi bi-stickies ml-1"></i>
-چگونه openSUSE را تلفظ کنیم؟
-</a>
-</div>
-<div class="bg-light mb-1 hov rounded border">
-<a href="مفاهیم-پایه-ای-لینوکس-OpenSUSE.html" class="text-reset text-decoration-none">
-<i class="bi bi-stickies ml-1"></i>
-مفاهیم پایه‌ای لینوکس OpenSUSE
-</a>
-</div>
-<div class="bg-light mb-1 hov rounded border">
-<a href="نرم-افزارهای-متن-باز-و-آزاد.html" class="text-reset text-decoration-none">
-<i class="bi bi-stickies ml-1"></i>
-نرم‌افزارهای متن‌باز و آزاد
-</a>
-</div>
-<div class="bg-light mb-1 hov rounded border">
-<a href="بازی-برای-ساخت-قالب.html" class="text-reset text-decoration-none">
-<i class="bi bi-stickies ml-1"></i>
-بازی برای ساخت قالب
-</a>
-</div>
-<div class="bg-light mb-1 hov rounded border">
-<a href="معرفی-انیمه-شیطان-کش.html" class="text-reset text-decoration-none">
-<i class="bi bi-stickies ml-1"></i>
-معرفی انیمه شیطان کش
-</a>
-</div>
-<div class="bg-light mb-1 hov rounded border">
-<a href="معرفی-انیمه-Garden-of-Words-دانلود.html" class="text-reset text-decoration-none">
-<i class="bi bi-stickies ml-1"></i>
-معرفی انیمه Garden of Words + دانلود
-</a>
-</div>
-<div class="bg-light mb-1 hov rounded border">
-<a href="چرا-انیمه-وان-پیس-one-piece-رو-باید-دید.html" class="text-reset text-decoration-none">
-<i class="bi bi-stickies ml-1"></i>
-چرا انیمه وان‌پیس - one piece رو باید دید؟
-</a>
-</div>
-<div class="bg-light mb-1 hov rounded border">
-<a href="لیست-تمامی-قسمت-های-My-Hero-Academia-فصل-اول-عکس.html" class="text-reset text-decoration-none">
-<i class="bi bi-stickies ml-1"></i>
-لیست تمامی قسمت‌های My Hero Academia فصل اول + عکس
-</a>
-</div>
-<div class="bg-light mb-1 hov rounded border">
-<a href="معرفی-انیمه-آکادمی-قهرمانی-من-تصاویر.html" class="text-reset text-decoration-none">
-<i class="bi bi-stickies ml-1"></i>
-معرفی انیمه آکادمی قهرمانی من + تصاویر
-</a>
-</div>
-<div class="bg-light mb-1 hov rounded border">
-<a href="معرفی-انیمه-آکادمی-قهرمانی-من-تصاویر-gewfew.html" class="text-reset text-decoration-none">
-<i class="bi bi-stickies ml-1"></i>
-معرفی انیمه آکادمی قهرمانی من + تصاویر gewfew
-</a>
-</div>
-</div>
-</div>
-<div class=" bg-side-back bg-white shadow-sm mb-4">
-<h5 class="bg-purple text-white d-inline-block mt-2 px-3 py-2 br-l bold">پربیننده ترین مطالب</h5>
-<div class="container mb-2">
-<div class="bg-light mb-1 hov rounded border">
-<a href="چگونه-openSUSE-را-تلفظ-کنیم.html" class="text-reset text-decoration-none">
-<i class="bi bi-stickies ml-1"></i>
-چگونه openSUSE را تلفظ کنیم؟
-</a>
-</div>
-<div class="bg-light mb-1 hov rounded border">
-<a href="مفاهیم-پایه-ای-لینوکس-OpenSUSE.html" class="text-reset text-decoration-none">
-<i class="bi bi-stickies ml-1"></i>
-مفاهیم پایه‌ای لینوکس OpenSUSE
-</a>
-</div>
-<div class="bg-light mb-1 hov rounded border">
-<a href="../../01/10/my-first-test-post.html" class="text-reset text-decoration-none">
-<i class="bi bi-stickies ml-1"></i>
-عنوان اولین مطلب آزمایشی من
-</a>
-</div>
-<div class="bg-light mb-1 hov rounded border">
-<a href="معرفی-انیمه-شیطان-کش.html" class="text-reset text-decoration-none">
-<i class="bi bi-stickies ml-1"></i>
-معرفی انیمه شیطان کش
-</a>
-</div>
-<div class="bg-light mb-1 hov rounded border">
-<a href="معرفی-انیمه-آکادمی-قهرمانی-من-تصاویر.html" class="text-reset text-decoration-none">
-<i class="bi bi-stickies ml-1"></i>
-معرفی انیمه آکادمی قهرمانی من + تصاویر
-</a>
-</div>
-<div class="bg-light mb-1 hov rounded border">
-<a href="../../01/10/my-second-test-post.html" class="text-reset text-decoration-none">
-<i class="bi bi-stickies ml-1"></i>
-عنوان دومین مطلب آزمایشی من
-</a>
-</div>
-<div class="bg-light mb-1 hov rounded border">
-<a href="نرم-افزارهای-متن-باز-و-آزاد.html" class="text-reset text-decoration-none">
-<i class="bi bi-stickies ml-1"></i>
-نرم‌افزارهای متن‌باز و آزاد
-</a>
-</div>
-<div class="bg-light mb-1 hov rounded border">
-<a href="معرفی-انیمه-آکادمی-قهرمانی-من-تصاویر-gewfew.html" class="text-reset text-decoration-none">
-<i class="bi bi-stickies ml-1"></i>
-معرفی انیمه آکادمی قهرمانی من + تصاویر gewfew
-</a>
-</div>
-<div class="bg-light mb-1 hov rounded border">
-<a href="بازی-برای-ساخت-قالب.html" class="text-reset text-decoration-none">
-<i class="bi bi-stickies ml-1"></i>
-بازی برای ساخت قالب
-</a>
-</div>
-<div class="bg-light mb-1 hov rounded border">
-<a href="چرا-انیمه-وان-پیس-one-piece-رو-باید-دید.html" class="text-reset text-decoration-none">
-<i class="bi bi-stickies ml-1"></i>
-چرا انیمه وان‌پیس - one piece رو باید دید؟
-</a>
-</div>
-</div>
-</div>
-<div class=" bg-side-back bg-white shadow-sm mb-4">
-<h5 class="bg-purple text-white d-inline-block mt-2 px-3 py-2 br-l bold">محبوب ترین مطالب</h5>
-<div class="container mb-2">
-<div class="bg-light mb-1 hov rounded border">
-<a href="چگونه-openSUSE-را-تلفظ-کنیم.html" class="text-reset text-decoration-none">
-<i class="bi bi-stickies ml-1"></i>
-چگونه openSUSE را تلفظ کنیم؟
-</a>
-</div>
-<div class="bg-light mb-1 hov rounded border">
-<a href="مفاهیم-پایه-ای-لینوکس-OpenSUSE.html" class="text-reset text-decoration-none">
-<i class="bi bi-stickies ml-1"></i>
-مفاهیم پایه‌ای لینوکس OpenSUSE
-</a>
-</div>
-<div class="bg-light mb-1 hov rounded border">
-<a href="معرفی-انیمه-آکادمی-قهرمانی-من-تصاویر-gewfew.html" class="text-reset text-decoration-none">
-<i class="bi bi-stickies ml-1"></i>
-معرفی انیمه آکادمی قهرمانی من + تصاویر gewfew
-</a>
-</div>
-<div class="bg-light mb-1 hov rounded border">
-<a href="بازی-برای-ساخت-قالب.html" class="text-reset text-decoration-none">
-<i class="bi bi-stickies ml-1"></i>
-بازی برای ساخت قالب
-</a>
-</div>
-<div class="bg-light mb-1 hov rounded border">
-<a href="نرم-افزارهای-متن-باز-و-آزاد.html" class="text-reset text-decoration-none">
-<i class="bi bi-stickies ml-1"></i>
-نرم‌افزارهای متن‌باز و آزاد
-</a>
-</div>
-<div class="bg-light mb-1 hov rounded border">
-<a href="معرفی-انیمه-Garden-of-Words-دانلود.html" class="text-reset text-decoration-none">
-<i class="bi bi-stickies ml-1"></i>
-معرفی انیمه Garden of Words + دانلود
-</a>
-</div>
-<div class="bg-light mb-1 hov rounded border">
-<a href="../../01/10/my-first-test-post.html" class="text-reset text-decoration-none">
-<i class="bi bi-stickies ml-1"></i>
-عنوان اولین مطلب آزمایشی من
-</a>
-</div>
-<div class="bg-light mb-1 hov rounded border">
-<a href="چرا-انیمه-وان-پیس-one-piece-رو-باید-دید.html" class="text-reset text-decoration-none">
-<i class="bi bi-stickies ml-1"></i>
-چرا انیمه وان‌پیس - one piece رو باید دید؟
-</a>
-</div>
-<div class="bg-light mb-1 hov rounded border">
-<a href="لیست-تمامی-قسمت-های-My-Hero-Academia-فصل-اول-عکس.html" class="text-reset text-decoration-none">
-<i class="bi bi-stickies ml-1"></i>
-لیست تمامی قسمت‌های My Hero Academia فصل اول + عکس
-</a>
-</div>
-<div class="bg-light mb-1 hov rounded border">
-<a href="معرفی-انیمه-شیطان-کش.html" class="text-reset text-decoration-none">
-<i class="bi bi-stickies ml-1"></i>
-معرفی انیمه شیطان کش
-</a>
-</div>
-</div>
-</div>
-<div class="w bg-side-back bg-white shadow-sm mb-4">
-<h5 class="bg-purple text-white d-inline-block mt-2 px-3 py-2 br-l bold">پر بحث ترین مطالب</h5>
-<div class="container mb-2">
-<div class="bg-light mb-1 hov rounded border">
-<a href="مفاهیم-پایه-ای-لینوکس-OpenSUSE.html" class="text-reset text-decoration-none">
-<i class="bi bi-stickies ml-1"></i>
-مفاهیم پایه‌ای لینوکس OpenSUSE
-</a>
-</div>
-<div class="bg-light mb-1 hov rounded border">
-<a href="../../01/10/my-second-test-post.html" class="text-reset text-decoration-none">
-<i class="bi bi-stickies ml-1"></i>
-عنوان دومین مطلب آزمایشی من
-</a>
-</div>
-<div class="bg-light mb-1 hov rounded border">
-<a href="معرفی-انیمه-آکادمی-قهرمانی-من-تصاویر-gewfew.html" class="text-reset text-decoration-none">
-<i class="bi bi-stickies ml-1"></i>
-معرفی انیمه آکادمی قهرمانی من + تصاویر gewfew
-</a>
-</div>
-<div class="bg-light mb-1 hov rounded border">
-<a href="بازی-برای-ساخت-قالب.html" class="text-reset text-decoration-none">
-<i class="bi bi-stickies ml-1"></i>
-بازی برای ساخت قالب
-</a>
-</div>
-<div class="bg-light mb-1 hov rounded border">
-<a href="نرم-افزارهای-متن-باز-و-آزاد.html" class="text-reset text-decoration-none">
-<i class="bi bi-stickies ml-1"></i>
-نرم‌افزارهای متن‌باز و آزاد
-</a>
-</div>
-<div class="bg-light mb-1 hov rounded border">
-<a href="معرفی-انیمه-Garden-of-Words-دانلود.html" class="text-reset text-decoration-none">
-<i class="bi bi-stickies ml-1"></i>
-معرفی انیمه Garden of Words + دانلود
-</a>
-</div>
-<div class="bg-light mb-1 hov rounded border">
-<a href="../../01/10/my-first-test-post.html" class="text-reset text-decoration-none">
-<i class="bi bi-stickies ml-1"></i>
-عنوان اولین مطلب آزمایشی من
-</a>
-</div>
-<div class="bg-light mb-1 hov rounded border">
-<a href="چرا-انیمه-وان-پیس-one-piece-رو-باید-دید.html" class="text-reset text-decoration-none">
-<i class="bi bi-stickies ml-1"></i>
-چرا انیمه وان‌پیس - one piece رو باید دید؟
-</a>
-</div>
-<div class="bg-light mb-1 hov rounded border">
-<a href="لیست-تمامی-قسمت-های-My-Hero-Academia-فصل-اول-عکس.html" class="text-reset text-decoration-none">
-<i class="bi bi-stickies ml-1"></i>
-لیست تمامی قسمت‌های My Hero Academia فصل اول + عکس
-</a>
-</div>
-<div class="bg-light mb-1 hov rounded border">
-<a href="معرفی-انیمه-شیطان-کش.html" class="text-reset text-decoration-none">
-<i class="bi bi-stickies ml-1"></i>
-معرفی انیمه شیطان کش
-</a>
-</div>
-</div>
-</div>
-<div class=" bg-side-back bg-white shadow-sm mb-4">
-<h5 class="bg-purple text-white d-inline-block mt-2 px-3 py-2 br-l bold">آخرین نظرات</h5>
-<div class="container mb-2">
-<div class="bg-light mb-1 hov rounded border">
-<a href="مفاهیم-پایه-ای-لینوکس-OpenSUSE.html#comment-MyTh0kMnYA8" class="text-reset text-decoration-none">
-<i class="bi bi-chat-quote-fill"></i>
-ت ... فقط همین ... :)) ...این یک ...</a>
-</div>
-<div class="bg-light mb-1 hov rounded border">
-<a href="مفاهیم-پایه-ای-لینوکس-OpenSUSE.html#comment-rcHrbpz-7P4" class="text-reset text-decoration-none">
-<i class="bi bi-chat-quote-fill"></i>
-این یک متن آزمایشی است ... فقط ...</a>
-</div>
-<div class="bg-light mb-1 hov rounded border">
-<a href="مفاهیم-پایه-ای-لینوکس-OpenSUSE.html#comment-XczuP8jtw_g" class="text-reset text-decoration-none">
-<i class="bi bi-chat-quote-fill"></i>
-شوخی جزوی از کارماست ... طراحان ...</a>
-</div>
-<div class="bg-light mb-1 hov rounded border">
-<a href="مفاهیم-پایه-ای-لینوکس-OpenSUSE.html#comment-WKMCnnuEuMg" class="text-reset text-decoration-none">
-<i class="bi bi-chat-quote-fill"></i>
-طراحان گرافیک است، چاپگرها و متون ...</a>
-</div>
-<div class="bg-light mb-1 hov rounded border">
-<a href="../../01/10/my-second-test-post.html#comment-PMOTv-KZUzY" class="text-reset text-decoration-none">
-<i class="bi bi-chat-quote-fill"></i>
-به جمع کاربران بلاگ بیان خوش آمدید. این یک نظر آزمایشی است.</a>
-</div>
-</div>
-</div>
-<div class=" bg-side-back bg-white shadow-sm mb-4">
-<h5 class="bg-purple text-white d-inline-block mt-2 px-3 py-2 br-l bold"> نویسندگان</h5>
-<div class="container mb-2">
-<div class="row">
-<div class="col">
-<a href="../../../by_author/D4CYpG416D0.html" class="text-reset text-decoration-none">
-<i class="bi bi-person-bounding-box"></i>
-<span>نویسنده ...</span>
-<span class="tag text-white px-2 bf-pjuple f-xsm">12مطلب</span>
-</a>
-</div>
-</div>
-</div>
-</div>
-<div class=" bg-side-back bg-white shadow-sm mb-4">
-<h5 class="bg-purple text-white d-inline-block mt-2 px-3 py-2 br-l bold">پیوند های روزانه</h5>
-<div class="container mb-2">
-<div class="bg-light mb-1 hov rounded border">
-<a alt="/process/link_clicked/k6cOp2wkpI0/bf4004b2521d0c5ee8fc41648d7909f0" href="http://help.blog.ir" class="text-reset text-decoration-none">
-<i class="bi bi-link-45deg"></i>
-پاسخ به سوالات وبلاگ نویسان
-</a>
-</div>
-<div class="bg-light mb-1 hov rounded border">
-<a alt="/process/link_clicked/Sdp9Lq2EfSg/52020cc49af688c907650913b4a27ed9" href="http://blog.ir/changes" class="text-reset text-decoration-none">
-<i class="bi bi-link-45deg"></i>
-آخرین وبلاگ های به روز شده
-</a>
-</div>
-<div class="bg-light mb-1 hov rounded border">
-<a alt="/process/link_clicked/C4mq_ddsLmQ/397fc436e0a3fbc4e1d1efdcda333f72" href="http://bayan.blog.ir/1392/04/01" class="text-reset text-decoration-none">
-<i class="bi bi-link-45deg"></i>
-زندگی به سبک بیان!
-</a>
-</div>
-</div>
-</div>
-<div class=" bg-side-back bg-white shadow-sm mb-4">
-<h5 class="bg-purple text-white d-inline-block mt-2 px-3 py-2 br-l bold">پیوند های روزانه</h5>
-<div class="container mb-2">
-<div class="bg-light mb-1 hov rounded border">
-<a alt="/process/link_clicked/gp68IlG-V4Y/c66dd800a99f75a3755f692c94bab1b2" href="http://blog.ir/create-blog" class="text-reset text-decoration-none">
-<i class="bi bi-link-45deg"></i>
-ساخت وبلاگ جدید در blog.ir
-</a>
-</div>
-<div class="bg-light mb-1 hov rounded border">
-<a alt="/process/link_clicked/1TlP6Q0sMzQ/d198d10b21f55aca9b6daa2f8399e44a" href="http://mohajer.blog.ir" class="text-reset text-decoration-none">
-<i class="bi bi-link-45deg"></i>
-نرم افزار مهاجرت به blog.ir
-</a>
-</div>
-<div class="bg-light mb-1 hov rounded border">
-<a alt="/process/link_clicked/ihRJLlpY8ys/dbad931a7bf15ff93adfeddc1a971f17" href="http://bayan.blog.ir" class="text-reset text-decoration-none">
-<i class="bi bi-link-45deg"></i>
-وبلاگ رسمی شرکت بیان
-</a>
-</div>
-<div class="bg-light mb-1 hov rounded border">
-<a alt="/process/link_clicked/sT0Febfn07k/5c37a086f68dbf5250f5e83971fbbd64" href="http://bayanbox.ir" class="text-reset text-decoration-none">
-<i class="bi bi-link-45deg"></i>
-صندوق بیان
-</a>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="row mb-3 text-left ">
-<div style="border-radius:40px; margin-bottom: 10px;" class=" ml-3 p-1 px-2 text-white mr-auto">
-<a class="text-decoration-none text-reset" target="_blank" href="http://blog.ir/">
-<img alt="sajadwd" src="https://bayanbox.ir/download/5333023425073040168/bayan-logo-white-200.png" width="30px">
-<b>قدرت گرفته از بلاگ بیان</b>
-</a>
-</div>
-<div class=" ml-3 p-1 px-2 bg-dark text-white mr-auto" style="border-radius:40px">
-<a class="text-decoration-none text-reset" target="_blank" href="http://khodesajad.blog.ir/">
-<img src="https://s17.picofile.com/file/8426886834/IMG_8542.PNG" width="30px" alt="sajadwd">
-<b>Designed by SJD</b>
-</a>
-</div>
-</div>
-</div>
-</body></html>
