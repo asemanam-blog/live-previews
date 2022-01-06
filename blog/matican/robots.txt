@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /process/
+
+Sitemap: https://matican.blog.ir/sitemap.xml
