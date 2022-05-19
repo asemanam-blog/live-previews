@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="1024mm" height="576mm" viewBox="0 0 102400 57600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" stroke-width="28.222" stroke-linejoin="round" xml:space="preserve">
+ <path fill="rgb(255,255,255)" stroke="none" d="M 51180,57576 L 0,57576 0,0 102361,0 102361,57576 51180,57576 Z"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 50611,48624 L 3515,48624 3515,3243 97707,3243 97707,48624 50611,48624 Z"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 97706,48623 L 3515,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 97706,43580 L 3515,43580"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 97706,38538 L 3515,38538"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 97706,33495 L 3515,33495"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 97706,28454 L 3515,28454"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 97706,23411 L 3515,23411"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 97706,18369 L 3515,18369"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 97706,13326 L 3515,13326"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 97706,8284 L 3515,8284"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 97706,3242 L 3515,3242"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 3515,48773 L 3515,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 3515,48773 L 3515,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 4371,48773 L 4371,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 4371,48773 L 4371,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 5227,48773 L 5227,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 5227,48773 L 5227,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 6083,48773 L 6083,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 6083,48773 L 6083,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 6940,48773 L 6940,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 6940,48773 L 6940,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 7796,48773 L 7796,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 7796,48773 L 7796,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 8652,48773 L 8652,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 8652,48773 L 8652,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 9509,48773 L 9509,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 9509,48773 L 9509,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 10365,48773 L 10365,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 10365,48773 L 10365,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 11221,48773 L 11221,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 11221,48773 L 11221,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 12077,48773 L 12077,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 12077,48773 L 12077,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 12934,48773 L 12934,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 12934,48773 L 12934,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 13790,48773 L 13790,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 13790,48773 L 13790,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 14646,48773 L 14646,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 14646,48773 L 14646,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 15503,48773 L 15503,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 15503,48773 L 15503,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 16359,48773 L 16359,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 16359,48773 L 16359,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 17215,48773 L 17215,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 17215,48773 L 17215,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 18072,48773 L 18072,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 18072,48773 L 18072,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 18928,48773 L 18928,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 18928,48773 L 18928,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 19784,48773 L 19784,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 19784,48773 L 19784,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 20640,48773 L 20640,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 20640,48773 L 20640,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 21497,48773 L 21497,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 21497,48773 L 21497,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 22353,48773 L 22353,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 22353,48773 L 22353,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 23209,48773 L 23209,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 23209,48773 L 23209,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 24066,48773 L 24066,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 24066,48773 L 24066,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 24922,48773 L 24922,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 24922,48773 L 24922,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 25778,48773 L 25778,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 25778,48773 L 25778,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 26635,48773 L 26635,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 26635,48773 L 26635,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 27491,48773 L 27491,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 27491,48773 L 27491,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 28347,48773 L 28347,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 28347,48773 L 28347,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 29203,48773 L 29203,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 29203,48773 L 29203,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 30060,48773 L 30060,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 30060,48773 L 30060,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 30916,48773 L 30916,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 30916,48773 L 30916,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 31772,48773 L 31772,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 31772,48773 L 31772,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 32629,48773 L 32629,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 32629,48773 L 32629,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 33485,48773 L 33485,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 33485,48773 L 33485,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 34341,48773 L 34341,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 34341,48773 L 34341,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 35198,48773 L 35198,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 35198,48773 L 35198,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 36054,48773 L 36054,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 36054,48773 L 36054,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 36910,48773 L 36910,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 36910,48773 L 36910,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 37766,48773 L 37766,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 37766,48773 L 37766,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 38623,48773 L 38623,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 38623,48773 L 38623,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 39479,48773 L 39479,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 39479,48773 L 39479,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 40335,48773 L 40335,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 40335,48773 L 40335,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 41192,48773 L 41192,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 41192,48773 L 41192,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 42048,48773 L 42048,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 42048,48773 L 42048,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 42904,48773 L 42904,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 42904,48773 L 42904,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 43761,48773 L 43761,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 43761,48773 L 43761,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 44617,48773 L 44617,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 44617,48773 L 44617,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 45473,48773 L 45473,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 45473,48773 L 45473,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 46329,48773 L 46329,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 46329,48773 L 46329,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 47186,48773 L 47186,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 47186,48773 L 47186,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 48042,48773 L 48042,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 48042,48773 L 48042,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 48898,48773 L 48898,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 48898,48773 L 48898,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 49755,48773 L 49755,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 49755,48773 L 49755,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 50611,48773 L 50611,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 50611,48773 L 50611,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 51466,48773 L 51466,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 51466,48773 L 51466,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 52323,48773 L 52323,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 52323,48773 L 52323,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 53179,48773 L 53179,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 53179,48773 L 53179,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 54035,48773 L 54035,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 54035,48773 L 54035,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 54891,48773 L 54891,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 54891,48773 L 54891,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 55748,48773 L 55748,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 55748,48773 L 55748,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 56604,48773 L 56604,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 56604,48773 L 56604,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 57460,48773 L 57460,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 57460,48773 L 57460,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 58317,48773 L 58317,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 58317,48773 L 58317,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 59173,48773 L 59173,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 59173,48773 L 59173,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 60029,48773 L 60029,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 60029,48773 L 60029,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 60886,48773 L 60886,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 60886,48773 L 60886,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 61742,48773 L 61742,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 61742,48773 L 61742,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 62598,48773 L 62598,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 62598,48773 L 62598,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 63454,48773 L 63454,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 63454,48773 L 63454,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 64311,48773 L 64311,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 64311,48773 L 64311,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 65167,48773 L 65167,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 65167,48773 L 65167,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 66023,48773 L 66023,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 66023,48773 L 66023,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 66880,48773 L 66880,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 66880,48773 L 66880,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 67736,48773 L 67736,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 67736,48773 L 67736,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 68592,48773 L 68592,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 68592,48773 L 68592,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 69449,48773 L 69449,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 69449,48773 L 69449,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 70305,48773 L 70305,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 70305,48773 L 70305,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 71161,48773 L 71161,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 71161,48773 L 71161,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 72017,48773 L 72017,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 72017,48773 L 72017,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 72874,48773 L 72874,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 72874,48773 L 72874,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 73730,48773 L 73730,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 73730,48773 L 73730,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 74586,48773 L 74586,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 74586,48773 L 74586,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 75443,48773 L 75443,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 75443,48773 L 75443,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 76299,48773 L 76299,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 76299,48773 L 76299,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 77155,48773 L 77155,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 77155,48773 L 77155,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 78012,48773 L 78012,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 78012,48773 L 78012,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 78868,48773 L 78868,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 78868,48773 L 78868,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 79724,48773 L 79724,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 79724,48773 L 79724,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 80580,48773 L 80580,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 80580,48773 L 80580,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 81437,48773 L 81437,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 81437,48773 L 81437,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 82293,48773 L 82293,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 82293,48773 L 82293,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 83149,48773 L 83149,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 83149,48773 L 83149,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 84006,48773 L 84006,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 84006,48773 L 84006,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 84862,48773 L 84862,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 84862,48773 L 84862,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 85718,48773 L 85718,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 85718,48773 L 85718,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 86575,48773 L 86575,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 86575,48773 L 86575,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 87431,48773 L 87431,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 87431,48773 L 87431,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 88287,48773 L 88287,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 88287,48773 L 88287,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 89143,48773 L 89143,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 89143,48773 L 89143,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 90000,48773 L 90000,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 90000,48773 L 90000,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 90856,48773 L 90856,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 90856,48773 L 90856,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 91712,48773 L 91712,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 91712,48773 L 91712,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 92569,48773 L 92569,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 92569,48773 L 92569,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 93425,48773 L 93425,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 93425,48773 L 93425,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 94281,48773 L 94281,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 94281,48773 L 94281,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 95138,48773 L 95138,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 95138,48773 L 95138,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 95994,48773 L 95994,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 95994,48773 L 95994,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 96850,48773 L 96850,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 96850,48773 L 96850,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 97706,48773 L 97706,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 97706,48773 L 97706,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 3515,48623 L 97706,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 3365,48623 L 3515,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 3365,48623 L 3515,48623"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 3365,43580 L 3515,43580"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 3365,43580 L 3515,43580"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 3365,38538 L 3515,38538"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 3365,38538 L 3515,38538"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 3365,33495 L 3515,33495"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 3365,33495 L 3515,33495"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 3365,28454 L 3515,28454"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 3365,28454 L 3515,28454"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 3365,23411 L 3515,23411"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 3365,23411 L 3515,23411"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 3365,18369 L 3515,18369"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 3365,18369 L 3515,18369"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 3365,13326 L 3515,13326"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 3365,13326 L 3515,13326"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 3365,8284 L 3515,8284"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 3365,8284 L 3515,8284"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 3365,3242 L 3515,3242"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 3365,3242 L 3515,3242"/>
+ <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 3515,48623 L 3515,3242"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 96993,48623 L 97278,48623 97278,45143 96993,45143 96993,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 96137,48623 L 96422,48623 96422,42067 96137,42067 96137,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 95280,48623 L 95566,48623 95566,44992 95280,44992 95280,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 94424,48623 L 94709,48623 94709,36016 94424,36016 94424,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 93568,48623 L 93853,48623 93853,45647 93568,45647 93568,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 92711,48623 L 92997,48623 92997,45849 92711,45849 92711,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 91855,48623 L 92141,48623 92141,43832 91855,43832 91855,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 90999,48623 L 91284,48623 91284,46101 90999,46101 90999,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 90143,48623 L 90428,48623 90428,41966 90143,41966 90143,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 89286,48623 L 89572,48623 89572,43832 89286,43832 89286,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 88430,48623 L 88715,48623 88715,37529 88430,37529 88430,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 87574,48623 L 87859,48623 87859,42824 87574,42824 87574,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 86717,48623 L 87003,48623 87003,29461 86717,29461 86717,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 85861,48623 L 86146,48623 86146,40958 85861,40958 85861,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 85005,48623 L 85290,48623 85290,43328 85005,43328 85005,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 84148,48623 L 84434,48623 84434,45345 84148,45345 84148,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 83292,48623 L 83578,48623 83578,42622 83292,42622 83292,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 82436,48623 L 82721,48623 82721,43479 82436,43479 82436,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 81580,48623 L 81865,48623 81865,29965 81580,29965 81580,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 80723,48623 L 81009,48623 81009,46353 80723,46353 80723,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 79867,48623 L 80152,48623 80152,33999 79867,33999 79867,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 79011,48623 L 79296,48623 79296,43630 79011,43630 79011,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 78154,48623 L 78440,48623 78440,43731 78154,43731 78154,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 77298,48623 L 77583,48623 77583,43580 77298,43580 77298,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 76442,48623 L 76727,48623 76727,43983 76442,43983 76442,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 75585,48623 L 75871,48623 75871,48017 75585,48017 75585,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 74729,48623 L 75015,48623 75015,40050 74729,40050 74729,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 73873,48623 L 74158,48623 74158,42319 73873,42319 73873,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 73017,48623 L 73302,48623 73302,40958 73017,40958 73017,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 72160,48623 L 72446,48623 72446,36016 72160,36016 72160,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 71304,48623 L 71589,48623 71589,41059 71304,41059 71304,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 70448,48623 L 70733,48623 70733,43630 70448,43630 70448,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 69591,48623 L 69877,48623 69877,39798 69591,39798 69591,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 68735,48623 L 69020,48623 69020,43832 68735,43832 68735,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 67879,48623 L 68164,48623 68164,46353 67879,46353 67879,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 67022,48623 L 67308,48623 67308,44336 67022,44336 67022,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 66166,48623 L 66452,48623 66452,43832 66166,43832 66166,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 65310,48623 L 65595,48623 65595,45345 65310,45345 65310,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 64454,48623 L 64739,48623 64739,45698 64454,45698 64454,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 63597,48623 L 63883,48623 63883,47110 63597,47110 63597,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 62741,48623 L 63026,48623 63026,36016 62741,36016 62741,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 61885,48623 L 62170,48623 62170,48623 61885,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 61028,48623 L 61314,48623 61314,48623 61028,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 60172,48623 L 60457,48623 60457,48623 60172,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 59316,48623 L 59601,48623 59601,48623 59316,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 58459,48623 L 58745,48623 58745,48623 58459,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 57603,48623 L 57889,48623 57889,48623 57603,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 56747,48623 L 57032,48623 57032,48623 56747,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 55891,48623 L 56176,48623 56176,48623 55891,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 55034,48623 L 55320,48623 55320,48623 55034,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 54178,48623 L 54463,48623 54463,48623 54178,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 53322,48623 L 53607,48623 53607,48623 53322,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 52465,48623 L 52751,48623 52751,48623 52465,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 51609,48623 L 51894,48623 51894,48623 51609,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 50754,48623 L 51039,48623 51039,48623 50754,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 49897,48623 L 50183,48623 50183,48623 49897,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 49041,48623 L 49327,48623 49327,48623 49041,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 48185,48623 L 48470,48623 48470,48623 48185,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 47329,48623 L 47614,48623 47614,48623 47329,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 46472,48623 L 46758,48623 46758,48623 46472,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 45616,48623 L 45901,48623 45901,48623 45616,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 44760,48623 L 45045,48623 45045,48623 44760,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 43903,48623 L 44189,48623 44189,40151 43903,40151 43903,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 43047,48623 L 43332,48623 43332,39042 43047,39042 43047,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 42191,48623 L 42476,48623 42476,43328 42191,43328 42191,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 41334,48623 L 41620,48623 41620,29965 41334,29965 41334,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 40478,48623 L 40764,48623 40764,45496 40478,45496 40478,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 39622,48623 L 39907,48623 39907,45496 39622,45496 39622,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 38766,48623 L 39051,48623 39051,42572 38766,42572 38766,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 37909,48623 L 38195,48623 38195,43832 37909,43832 37909,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 37053,48623 L 37338,48623 37338,42319 37053,42319 37053,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 36197,48623 L 36482,48623 36482,45597 36197,45597 36197,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 35340,48623 L 35626,48623 35626,43681 35340,43681 35340,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 34484,48623 L 34769,48623 34769,41563 34484,41563 34484,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 33628,48623 L 33913,48623 33913,41059 33628,41059 33628,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 32771,48623 L 33057,48623 33057,43681 32771,43681 32771,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 31915,48623 L 32201,48623 32201,39042 31915,39042 31915,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 31059,48623 L 31344,48623 31344,40655 31059,40655 31059,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 30203,48623 L 30488,48623 30488,43076 30203,43076 30203,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 29346,48623 L 29632,48623 29632,41361 29346,41361 29346,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 28490,48623 L 28775,48623 28775,42319 28490,42319 28490,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 27634,48623 L 27919,48623 27919,42319 27634,42319 27634,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 26777,48623 L 27063,48623 27063,42118 26777,42118 26777,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 25921,48623 L 26206,48623 26206,39949 25921,39949 25921,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 25065,48623 L 25350,48623 25350,24924 25065,24924 25065,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 24208,48623 L 24494,48623 24494,43630 24208,43630 24208,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 23352,48623 L 23638,48623 23638,43328 23352,43328 23352,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 22496,48623 L 22781,48623 22781,22403 22496,22403 22496,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 21640,48623 L 21925,48623 21925,41059 21640,41059 21640,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 20783,48623 L 21069,48623 21069,42067 20783,42067 20783,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 19927,48623 L 20212,48623 20212,36521 19927,36521 19927,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 19071,48623 L 19356,48623 19356,12318 19071,12318 19071,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 18214,48623 L 18500,48623 18500,45622 18214,45622 18214,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 17358,48623 L 17643,48623 17643,37529 17358,37529 17358,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 16502,48623 L 16787,48623 16787,40555 16502,40555 16502,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 15645,48623 L 15931,48623 15931,30974 15645,30974 15645,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 14789,48623 L 15075,48623 15075,32235 14789,32235 14789,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 13933,48623 L 14218,48623 14218,35512 13933,35512 13933,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 13077,48623 L 13362,48623 13362,39546 13077,39546 13077,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 12220,48623 L 12506,48623 12506,28504 12220,28504 12220,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 11364,48623 L 11649,48623 11649,43983 11364,43983 11364,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 10508,48623 L 10793,48623 10793,18873 10508,18873 10508,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 9651,48623 L 9937,48623 9937,43328 9651,43328 9651,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 8795,48623 L 9080,48623 9080,44336 8795,44336 8795,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 7939,48623 L 8224,48623 8224,44336 7939,44336 7939,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 7082,48623 L 7368,48623 7368,44841 7082,44841 7082,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 6226,48623 L 6512,48623 6512,25933 6226,25933 6226,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 5370,48623 L 5655,48623 5655,43832 5370,43832 5370,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 4514,48623 L 4799,48623 4799,42572 4514,42572 4514,48623 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 3657,48623 L 3943,48623 3943,42067 3657,42067 3657,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 97278,48623 L 97564,48623 97564,48623 97278,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 96422,48623 L 96707,48623 96707,48623 96422,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 95566,48623 L 95851,48623 95851,48623 95566,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 94709,48623 L 94995,48623 94995,48623 94709,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 93853,48623 L 94139,48623 94139,48623 93853,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 92997,48623 L 93282,48623 93282,48623 92997,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 92141,48623 L 92426,48623 92426,48623 92141,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 91284,48623 L 91570,48623 91570,48623 91284,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 90428,48623 L 90713,48623 90713,48623 90428,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 89572,48623 L 89857,48623 89857,48623 89572,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 88715,48623 L 89001,48623 89001,48623 88715,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 87859,48623 L 88144,48623 88144,48623 87859,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 87003,48623 L 87288,48623 87288,48623 87003,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 86146,48623 L 86432,48623 86432,48623 86146,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 85290,48623 L 85576,48623 85576,48623 85290,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 84434,48623 L 84719,48623 84719,48623 84434,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 83578,48623 L 83863,48623 83863,48623 83578,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 82721,48623 L 83007,48623 83007,48623 82721,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 81865,48623 L 82150,48623 82150,48623 81865,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 81009,48623 L 81294,48623 81294,48623 81009,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 80152,48623 L 80438,48623 80438,48623 80152,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 79296,48623 L 79581,48623 79581,48623 79296,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 78440,48623 L 78725,48623 78725,48623 78440,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 77583,48623 L 77869,48623 77869,48623 77583,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 76727,48623 L 77013,48623 77013,48623 76727,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 75871,48623 L 76156,48623 76156,48623 75871,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 75015,48623 L 75300,48623 75300,48623 75015,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 74158,48623 L 74444,48623 74444,48623 74158,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 73302,48623 L 73587,48623 73587,48623 73302,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 72446,48623 L 72731,48623 72731,48623 72446,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 71589,48623 L 71875,48623 71875,48623 71589,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 70733,48623 L 71018,48623 71018,48623 70733,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 69877,48623 L 70162,48623 70162,48623 69877,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 69020,48623 L 69306,48623 69306,48623 69020,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 68164,48623 L 68450,48623 68450,48623 68164,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 67308,48623 L 67593,48623 67593,48623 67308,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 66452,48623 L 66737,48623 66737,48623 66452,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 65595,48623 L 65881,48623 65881,48623 65595,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 64739,48623 L 65024,48623 65024,48623 64739,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 63883,48623 L 64168,48623 64168,48623 63883,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 63026,48623 L 63312,48623 63312,48623 63026,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 62170,48623 L 62455,48623 62455,31982 62170,31982 62170,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 61314,48623 L 61599,48623 61599,28957 61314,28957 61314,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 60457,48623 L 60743,48623 60743,22403 60457,22403 60457,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 59601,48623 L 59887,48623 59887,20890 59601,20890 59601,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 58745,48623 L 59030,48623 59030,41664 58745,41664 58745,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 57889,48623 L 58174,48623 58174,25933 57889,25933 57889,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 57032,48623 L 57318,48623 57318,41311 57032,41311 57032,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 56176,48623 L 56461,48623 56461,42572 56176,42572 56176,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 55320,48623 L 55605,48623 55605,14335 55320,14335 55320,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 54463,48623 L 54749,48623 54749,25933 54463,25933 54463,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 53607,48623 L 53892,48623 53892,25428 53607,25428 53607,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 52751,48623 L 53036,48623 53036,25933 52751,25933 52751,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 51894,48623 L 52180,48623 52180,41563 51894,41563 51894,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 51039,48623 L 51324,48623 51324,42269 51039,42269 51039,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 50183,48623 L 50468,48623 50468,25075 50183,25075 50183,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 49327,48623 L 49612,48623 49612,45647 49327,45647 49327,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 48470,48623 L 48756,48623 48756,39647 48470,39647 48470,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 47614,48623 L 47899,48623 47899,26941 47614,26941 47614,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 46758,48623 L 47043,48623 47043,23916 46758,23916 46758,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 45901,48623 L 46187,48623 46187,46101 45901,46101 45901,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 45045,48623 L 45330,48623 45330,38638 45045,38638 45045,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 44189,48623 L 44474,48623 44474,39546 44189,39546 44189,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 43332,48623 L 43618,48623 43618,40555 43332,40555 43332,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 42476,48623 L 42762,48623 42762,41160 42476,41160 42476,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 41620,48623 L 41905,48623 41905,29310 41620,29310 41620,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 40764,48623 L 41049,48623 41049,45143 40764,45143 40764,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 39907,48623 L 40193,48623 40193,44841 39907,44841 39907,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 39051,48623 L 39336,48623 39336,39546 39051,39546 39051,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 38195,48623 L 38480,48623 38480,42572 38195,42572 38195,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 37338,48623 L 37624,48623 37624,41109 37338,41109 37338,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 36482,48623 L 36767,48623 36767,45093 36482,45093 36482,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 35626,48623 L 35911,48623 35911,43681 35626,43681 35626,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 34769,48623 L 35055,48623 35055,37529 34769,37529 34769,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 33913,48623 L 34199,48623 34199,39042 33913,39042 33913,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 33057,48623 L 33342,48623 33342,42723 33057,42723 33057,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 32201,48623 L 32486,48623 32486,34504 32201,34504 32201,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 31344,48623 L 31630,48623 31630,40454 31344,40454 31344,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 30488,48623 L 30773,48623 30773,41664 30488,41664 30488,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 29632,48623 L 29917,48623 29917,40151 29632,40151 29632,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 28775,48623 L 29061,48623 29061,42319 28775,42319 28775,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 27919,48623 L 28204,48623 28204,42118 27919,42118 27919,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 27063,48623 L 27348,48623 27348,40302 27063,40302 27063,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 26206,48623 L 26492,48623 26492,39647 26206,39647 26206,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 25350,48623 L 25636,48623 25636,19882 25350,19882 25350,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 24494,48623 L 24779,48623 24779,43126 24494,43126 24494,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 23638,48623 L 23923,48623 23923,42118 23638,42118 23638,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 22781,48623 L 23067,48623 23067,13831 22781,13831 22781,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 21925,48623 L 22210,48623 22210,38538 21925,38538 21925,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 21069,48623 L 21354,48623 21354,41714 21069,41714 21069,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 20212,48623 L 20498,48623 20498,36067 20212,36067 20212,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 19356,48623 L 19641,48623 19641,9797 19356,9797 19356,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 18500,48623 L 18785,48623 18785,45602 18500,45602 18500,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 17643,48623 L 17929,48623 17929,32487 17643,32487 17643,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 16787,48623 L 17073,48623 17073,43580 16787,43580 16787,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 15931,48623 L 16216,48623 16216,30974 15931,30974 15931,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 15075,48623 L 15360,48623 15360,32235 15075,32235 15075,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 14218,48623 L 14504,48623 14504,34504 14218,34504 14218,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 13362,48623 L 13647,48623 13647,41059 13362,41059 13362,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 12506,48623 L 12791,48623 12791,29965 12506,29965 12506,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 11649,48623 L 11935,48623 11935,43983 11649,43983 11649,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 10793,48623 L 11078,48623 11078,9797 10793,9797 10793,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 9937,48623 L 10222,48623 10222,42672 9937,42672 9937,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 9080,48623 L 9366,48623 9366,43177 9080,43177 9080,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 8224,48623 L 8510,48623 8510,44185 8224,44185 8224,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 7368,48623 L 7653,48623 7653,44740 7368,44740 7368,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 6512,48623 L 6797,48623 6797,19882 6512,19882 6512,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 5655,48623 L 5941,48623 5941,43630 5655,43630 5655,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 4799,48623 L 5084,48623 5084,44084 4799,44084 4799,48623 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 3943,48623 L 4228,48623 4228,42118 3943,42118 3943,48623 Z"/>
+ <text class="SVGTextShape" transform="rotate(-44.9 3223 49902)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="3223" y="49902"><tspan fill="rgb(0,0,0)" stroke="none">بادمجان</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 3536 50445)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="3536" y="50445"><tspan fill="rgb(0,0,0)" stroke="none">بادمجان دلمه</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 4841 49995)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="4841" y="49995"><tspan fill="rgb(0,0,0)" stroke="none">باقلا سبز</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 4687 51006)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="4687" y="51006"><tspan fill="rgb(0,0,0)" stroke="none">باقلا سبز پاک کرده</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 6704 49845)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="6704" y="49845"><tspan fill="rgb(0,0,0)" stroke="none">پیاز زرد</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 6624 50781)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="6624" y="50781"><tspan fill="rgb(0,0,0)" stroke="none">پیاز سفید صدفی</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 7106 51155)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="7106" y="51155"><tspan fill="rgb(0,0,0)" stroke="none">خیار رسمی و خاردار</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 8655 50463)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="8655" y="50463"><tspan fill="rgb(0,0,0)" stroke="none">خیار گلخانه‌ای</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 9735 50239)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="9735" y="50239"><tspan fill="rgb(0,0,0)" stroke="none">زنجبیل تازه</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 10087 50743)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="10087" y="50743"><tspan fill="rgb(0,0,0)" stroke="none">سبزی جور انواع</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 8250 53437)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="8250" y="53437"><tspan fill="rgb(0,0,0)" stroke="none">گوجه سبز دورشهری ( شهریار، ساوه و ... )</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 11650 50893)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="11650" y="50893"><tspan fill="rgb(0,0,0)" stroke="none">گوجه سبز شمالی</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 9624 53775)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="9624" y="53775"><tspan fill="rgb(0,0,0)" stroke="none">لیمو ترش انواع ( سنگی، پرشین لایم، مینایی )</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 9733 54524)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="9733" y="54524"><tspan fill="rgb(0,0,0)" stroke="none">موز آمریکای جنوبی ( کارتن بزرگ ) و خوشه‌ای سازی </tspan></tspan><tspan class="TextPosition" x="9602" y="54654"><tspan fill="rgb(0,0,0)" stroke="none">۴</tspan></tspan><tspan class="TextPosition" x="9341" y="54916"><tspan fill="rgb(0,0,0)" stroke="none"> و </tspan></tspan><tspan class="TextPosition" x="9210" y="55047"><tspan fill="rgb(0,0,0)" stroke="none">۵</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 13601 51511)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="13601" y="51511"><tspan fill="rgb(0,0,0)" stroke="none">نارگیل انواع هر کیلوگرم</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 15617 50351)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="15617" y="50351"><tspan fill="rgb(0,0,0)" stroke="none">نارنگی انواع</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 16361 50463)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="16361" y="50463"><tspan fill="rgb(0,0,0)" stroke="none">هلو پیش رس</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 16657 51024)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="16657" y="51024"><tspan fill="rgb(0,0,0)" stroke="none">هندوانه انواع بالای </tspan></tspan><tspan class="TextPosition" x="16526" y="51154"><tspan fill="rgb(0,0,0)" stroke="none">۳</tspan></tspan><tspan class="TextPosition" x="15666" y="52015"><tspan fill="rgb(0,0,0)" stroke="none"> کیلوگرم</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 18074 50463)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="18074" y="50463"><tspan fill="rgb(0,0,0)" stroke="none">آناناس طلایی</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 20090 49303)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="20090" y="49303"><tspan fill="rgb(0,0,0)" stroke="none">به</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 18103 52147)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="18103" y="52147"><tspan fill="rgb(0,0,0)" stroke="none">پرتقال رسمی و والنسیا شمال</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 21017 50089)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="21017" y="50089"><tspan fill="rgb(0,0,0)" stroke="none">توت سیاه</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 21705 50257)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="21705" y="50257"><tspan fill="rgb(0,0,0)" stroke="none">توت فرنگی</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 22525 50295)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="22525" y="50295"><tspan fill="rgb(0,0,0)" stroke="none">خربزه انواع</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 22426 51249)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="22426" y="51249"><tspan fill="rgb(0,0,0)" stroke="none">خربزه ملون و دستنبو</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 24816 49715)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="24816" y="49715"><tspan fill="rgb(0,0,0)" stroke="none">زردآلو</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 24793 50595)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="24793" y="50595"><tspan fill="rgb(0,0,0)" stroke="none">سیب زرد لبنان</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 25481 50763)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="25481" y="50763"><tspan fill="rgb(0,0,0)" stroke="none">سیب قرمز لبنان</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 26806 50295)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="26806" y="50295"><tspan fill="rgb(0,0,0)" stroke="none">طالبی انواع</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 27793 50163)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="27793" y="50163"><tspan fill="rgb(0,0,0)" stroke="none">طالبی جانا</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 29212 49602)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="29212" y="49602"><tspan fill="rgb(0,0,0)" stroke="none">کیوی</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 28158 51511)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="28158" y="51511"><tspan fill="rgb(0,0,0)" stroke="none">سیب زمینی سردخانه‌ای</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 29950 50575)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="29950" y="50575"><tspan fill="rgb(0,0,0)" stroke="none">سیب زمینی نو</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 30321 51061)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="30321" y="51061"><tspan fill="rgb(0,0,0)" stroke="none">سیر تازه بدون برگ</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 31495 50743)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="31495" y="50743"><tspan fill="rgb(0,0,0)" stroke="none">فلفل دلمه رنگی</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 32463 50631)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="32463" y="50631"><tspan fill="rgb(0,0,0)" stroke="none">فلفل دلمه سبز</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 30063 53887)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="30063" y="53887"><tspan fill="rgb(0,0,0)" stroke="none">فلفل ریز انواع ( کاپی، شیرین، تند، کبابی و ... )</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 33764 51043)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="33764" y="51043"><tspan fill="rgb(0,0,0)" stroke="none">کاهو پیچ ( سالادی )</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 34358 51305)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="34358" y="51305"><tspan fill="rgb(0,0,0)" stroke="none">کاهو رسمی پاک کرده</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 36130 50389)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="36130" y="50389"><tspan fill="rgb(0,0,0)" stroke="none">کدو مسمایی</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 37605 49771)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="37605" y="49771"><tspan fill="rgb(0,0,0)" stroke="none">کرفس</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 37993 50239)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="37993" y="50239"><tspan fill="rgb(0,0,0)" stroke="none">کلم بروکلی</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 39019 50070)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="39019" y="50070"><tspan fill="rgb(0,0,0)" stroke="none">کلم سفید</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 39912 50033)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="39912" y="50033"><tspan fill="rgb(0,0,0)" stroke="none">کلم قرمز</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 40263 50538)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="40263" y="50538"><tspan fill="rgb(0,0,0)" stroke="none">کنگر پاک شده</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 40801 50856)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="40801" y="50856"><tspan fill="rgb(0,0,0)" stroke="none">گوجه‌فرنگی انواع</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 38178 54335)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="38178" y="54335"><tspan fill="rgb(0,0,0)" stroke="none">گوجه‌فرنگی گیلاسی، زیتونی و خوشه‌ای و ... ریز فله</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 42477 50893)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="42477" y="50893"><tspan fill="rgb(0,0,0)" stroke="none">لوبیا سبز قیطونی</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 44792 49433)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="44792" y="49433"><tspan fill="rgb(0,0,0)" stroke="none">انار</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 44582 50500)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="44582" y="50500"><tspan fill="rgb(0,0,0)" stroke="none">ملون درجه دو</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 46130 49809)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="46130" y="49809"><tspan fill="rgb(0,0,0)" stroke="none">لواشک</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 46537 50257)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="46537" y="50257"><tspan fill="rgb(0,0,0)" stroke="none">خرما توکلی</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 48160 49491)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="48160" y="49491"><tspan fill="rgb(0,0,0)" stroke="none">بلال</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 48924 49583)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="48924" y="49583"><tspan fill="rgb(0,0,0)" stroke="none">هویچ</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 49817 49547)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="49817" y="49547"><tspan fill="rgb(0,0,0)" stroke="none">قارچ</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 49943 50276)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="49943" y="50276"><tspan fill="rgb(0,0,0)" stroke="none">سیب قرمز </tspan></tspan><tspan class="TextPosition" x="49812" y="50407"><tspan fill="rgb(0,0,0)" stroke="none">۲</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 50967 50108)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="50967" y="50108"><tspan fill="rgb(0,0,0)" stroke="none">سیب زرد </tspan></tspan><tspan class="TextPosition" x="50836" y="50239"><tspan fill="rgb(0,0,0)" stroke="none">۲</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 51749 50183)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="51749" y="50183"><tspan fill="rgb(0,0,0)" stroke="none">گوجه سبز </tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 52344 50445)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="52344" y="50445"><tspan fill="rgb(0,0,0)" stroke="none">توت فرنگی د</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 53050 50595)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="53050" y="50595"><tspan fill="rgb(0,0,0)" stroke="none">زردآلو درجه دو</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 54262 50239)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="54262" y="50239"><tspan fill="rgb(0,0,0)" stroke="none">توت سنندج</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 55848 49509)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="55848" y="49509"><tspan fill="rgb(0,0,0)" stroke="none">انار </tspan></tspan><tspan class="TextPosition" x="55717" y="49640"><tspan fill="rgb(0,0,0)" stroke="none">۲</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 56424 49789)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="56424" y="49789"><tspan fill="rgb(0,0,0)" stroke="none">خربزه </tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 56962 50108)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="56962" y="50108"><tspan fill="rgb(0,0,0)" stroke="none">لیمو ترش</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 57632 50295)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="57632" y="50295"><tspan fill="rgb(0,0,0)" stroke="none">نخود فرنگی</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 58039 50743)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="58039" y="50743"><tspan fill="rgb(0,0,0)" stroke="none">نخود فرنگی پاک</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 59362 50277)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="59362" y="50277"><tspan fill="rgb(0,0,0)" stroke="none">خرما کبکاب</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 60182 50313)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="60182" y="50313"><tspan fill="rgb(0,0,0)" stroke="none">خرما عسلی</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 61150 50201)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="61150" y="50201"><tspan fill="rgb(0,0,0)" stroke="none">خرما رطب</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 62342 49865)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="62342" y="49865"><tspan fill="rgb(0,0,0)" stroke="none">برگ مو</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 62657 50407)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="62657" y="50407"><tspan fill="rgb(0,0,0)" stroke="none">پیاز ریز انواع</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 63907 50013)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="63907" y="50013"><tspan fill="rgb(0,0,0)" stroke="none">پیاز قرمز</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 64613 50163)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="64613" y="50163"><tspan fill="rgb(0,0,0)" stroke="none">تره فرنگی</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 65620 50013)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="65620" y="50013"><tspan fill="rgb(0,0,0)" stroke="none">خیار چنبر</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 66363 50127)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="66363" y="50127"><tspan fill="rgb(0,0,0)" stroke="none">خیار رویال</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 67051 50295)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="67051" y="50295"><tspan fill="rgb(0,0,0)" stroke="none">خیار سالادی</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 66840 51361)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="66840" y="51361"><tspan fill="rgb(0,0,0)" stroke="none">خیار کوتاه بذر اصفهان</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 68764 50295)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="68764" y="50295"><tspan fill="rgb(0,0,0)" stroke="none">ذرت شیرین</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 69488 50427)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="69488" y="50427"><tspan fill="rgb(0,0,0)" stroke="none">ذرت معمولی</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 70494 50277)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="70494" y="50277"><tspan fill="rgb(0,0,0)" stroke="none">ریواس سبز</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 71033 50595)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="71033" y="50595"><tspan fill="rgb(0,0,0)" stroke="none">ریواس صورتی</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 71777 50707)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="71777" y="50707"><tspan fill="rgb(0,0,0)" stroke="none">سبزی پاک کرده</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 70668 52671)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="70668" y="52671"><tspan fill="rgb(0,0,0)" stroke="none">سبزی خوردن پاک کرده بسته بندی </tspan></tspan><tspan class="TextPosition" x="70275" y="53064"><tspan fill="rgb(0,0,0)" stroke="none">۲۰۰</tspan></tspan><tspan class="TextPosition" x="69620" y="53719"><tspan fill="rgb(0,0,0)" stroke="none"> گرمی</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 71525 52671)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="71525" y="52671"><tspan fill="rgb(0,0,0)" stroke="none">سبزی خوردن پاک کرده بسته بندی </tspan></tspan><tspan class="TextPosition" x="71132" y="53064"><tspan fill="rgb(0,0,0)" stroke="none">۳۰۰</tspan></tspan><tspan class="TextPosition" x="70477" y="53719"><tspan fill="rgb(0,0,0)" stroke="none"> گرمی</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 72063 52989)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="72063" y="52989"><tspan fill="rgb(0,0,0)" stroke="none">سبزی دسته‌ای کوچک جور ( هر دسته )</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 75015 50893)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="75015" y="50893"><tspan fill="rgb(0,0,0)" stroke="none">سبزی نعنا جعفری</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 77068 49697)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="77068" y="49697"><tspan fill="rgb(0,0,0)" stroke="none">گرمک</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 77308 50313)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="77308" y="50313"><tspan fill="rgb(0,0,0)" stroke="none">گریپ فروت</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 78201 50277)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="78201" y="50277"><tspan fill="rgb(0,0,0)" stroke="none">لیمو شیرین</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 78833 50500)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="78833" y="50500"><tspan fill="rgb(0,0,0)" stroke="none">موز سایزهای </tspan></tspan><tspan class="TextPosition" x="78702" y="50631"><tspan fill="rgb(0,0,0)" stroke="none">۶</tspan></tspan><tspan class="TextPosition" x="78197" y="51136"><tspan fill="rgb(0,0,0)" stroke="none"> الی </tspan></tspan><tspan class="TextPosition" x="78066" y="51267"><tspan fill="rgb(0,0,0)" stroke="none">۹</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 79316 50876)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="79316" y="50876"><tspan fill="rgb(0,0,0)" stroke="none">هندوانه انواع زیر </tspan></tspan><tspan class="TextPosition" x="79185" y="51006"><tspan fill="rgb(0,0,0)" stroke="none">۳</tspan></tspan><tspan class="TextPosition" x="78324" y="51867"><tspan fill="rgb(0,0,0)" stroke="none"> کیلوگرم</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 80770 50277)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="80770" y="50277"><tspan fill="rgb(0,0,0)" stroke="none">ازگیل ژاپنی</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 81403 50500)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="81403" y="50500"><tspan fill="rgb(0,0,0)" stroke="none">پرتقال آبگیری</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 80032 52727)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="80032" y="52727"><tspan fill="rgb(0,0,0)" stroke="none">پرتقال تامسون شمال واکس خورده</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 81543 52073)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="81543" y="52073"><tspan fill="rgb(0,0,0)" stroke="none">پرتقال تامسون شمال درشت</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 80080 54392)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="80080" y="54392"><tspan fill="rgb(0,0,0)" stroke="none">پرتقال تامسون شمال نایلون پیچ و غیر واکس خورده</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 84228 51099)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="84228" y="51099"><tspan fill="rgb(0,0,0)" stroke="none">پرتقال توسرخ انواع</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 85983 50201)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="85983" y="50201"><tspan fill="rgb(0,0,0)" stroke="none">چغاله بادام</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 86072 50969)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="86072" y="50969"><tspan fill="rgb(0,0,0)" stroke="none">خربزه بذر مشهدی</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 87751 50145)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="87751" y="50145"><tspan fill="rgb(0,0,0)" stroke="none">توت سفید</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 85091 53663)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="85091" y="53663"><tspan fill="rgb(0,0,0)" stroke="none">سیب سایر انواع ( شفیع‌آبادی، مشهدی و ... )</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 87668 51941)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="87668" y="51941"><tspan fill="rgb(0,0,0)" stroke="none">سیب سبز ( گرانی اسمیت )</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 89778 50687)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="89778" y="50687"><tspan fill="rgb(0,0,0)" stroke="none">سیب زمینی ریز</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 90616 50707)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="90616" y="50707"><tspan fill="rgb(0,0,0)" stroke="none">سیر تازه با برگ</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 91285 50893)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="91285" y="50893"><tspan fill="rgb(0,0,0)" stroke="none">کاهو ( کلم ) چینی</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 90589 52446)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="90589" y="52446"><tspan fill="rgb(0,0,0)" stroke="none">کلم قمری ( با برگ و بدون برگ )</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 93259 50631)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="93259" y="50631"><tspan fill="rgb(0,0,0)" stroke="none">کنگر پاک نشده</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 94920 49827)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="94920" y="49827"><tspan fill="rgb(0,0,0)" stroke="none">گل کلم</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 91735 53868)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="91735" y="53868"><tspan fill="rgb(0,0,0)" stroke="none">گوجه‌فرنگی گیلاسی و زیتونی و ... در بسته‌های </tspan></tspan><tspan class="TextPosition" x="91342" y="54261"><tspan fill="rgb(0,0,0)" stroke="none">۴۰۰</tspan></tspan><tspan class="TextPosition" x="90163" y="55440"><tspan fill="rgb(0,0,0)" stroke="none"> گرمی + - </tspan></tspan><tspan class="TextPosition" x="89901" y="55701"><tspan fill="rgb(0,0,0)" stroke="none">۵۰</tspan></tspan><tspan class="TextPosition" x="89434" y="56169"><tspan fill="rgb(0,0,0)" stroke="none"> گرم</tspan></tspan></tspan></text>
+ <text class="SVGTextShape" transform="rotate(-44.9 96876 49583)"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="96876" y="49583"><tspan fill="rgb(0,0,0)" stroke="none">نارنج</tspan></tspan></tspan></text>
+ <text class="SVGTextShape"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="2710" y="48744"><tspan fill="rgb(0,0,0)" stroke="none">٠٠٠</tspan></tspan></tspan></text>
+ <text class="SVGTextShape"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="2049" y="43701"><tspan fill="rgb(0,0,0)" stroke="none">١٠٠٬٠٠٠</tspan></tspan></tspan></text>
+ <text class="SVGTextShape"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="2049" y="38659"><tspan fill="rgb(0,0,0)" stroke="none">٢٠٠٬٠٠٠</tspan></tspan></tspan></text>
+ <text class="SVGTextShape"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="2049" y="33616"><tspan fill="rgb(0,0,0)" stroke="none">٣٠٠٬٠٠٠</tspan></tspan></tspan></text>
+ <text class="SVGTextShape"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="2049" y="28574"><tspan fill="rgb(0,0,0)" stroke="none">٤٠٠٬٠٠٠</tspan></tspan></tspan></text>
+ <text class="SVGTextShape"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="2049" y="23531"><tspan fill="rgb(0,0,0)" stroke="none">٥٠٠٬٠٠٠</tspan></tspan></tspan></text>
+ <text class="SVGTextShape"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="2049" y="18489"><tspan fill="rgb(0,0,0)" stroke="none">٦٠٠٬٠٠٠</tspan></tspan></tspan></text>
+ <text class="SVGTextShape"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="2049" y="13446"><tspan fill="rgb(0,0,0)" stroke="none">٧٠٠٬٠٠٠</tspan></tspan></tspan></text>
+ <text class="SVGTextShape"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="2049" y="8404"><tspan fill="rgb(0,0,0)" stroke="none">٨٠٠٬٠٠٠</tspan></tspan></tspan></text>
+ <text class="SVGTextShape"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="2049" y="3362"><tspan fill="rgb(0,0,0)" stroke="none">٩٠٠٬٠٠٠</tspan></tspan></tspan></text>
+ <text class="SVGTextShape"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="459px" font-weight="400"><tspan class="TextPosition" x="46671" y="1848"><tspan fill="rgb(0,0,0)" stroke="none">مقایسه قیمت بازار تهران و شهرک شهید شجاعی</tspan></tspan></tspan></text>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 101930,28644 L 101824,28644 101824,28433 102035,28433 102035,28644 101930,28644 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 101930,29141 L 101824,29141 101824,28930 102035,28930 102035,29141 101930,29141 Z"/>
+ <text class="SVGTextShape"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="99976" y="28658"><tspan fill="rgb(0,0,0)" stroke="none">قیمت تهران</tspan></tspan></tspan></text>
+ <text class="SVGTextShape"><tspan class="TextParagraph" font-family="DejaVu Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="100055" y="29155"><tspan fill="rgb(0,0,0)" stroke="none">قیمت قصر </tspan><tspan fill="rgb(0,0,0)" stroke="none">۱</tspan></tspan></tspan></text>
+</svg>
